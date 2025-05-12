@@ -1,0 +1,6026 @@
+modelBuilder.Entity<Schedule>().HasData(
+    new Schedule
+    {
+        Id = "SCHE001",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 7084400.0m,
+        Children_price = 4959080.0m,
+        Discount = 12,
+        Create_at = new DateTime(2024, 3, 20, 14, 30, 15),
+        Tour_Id = "TOUR001"
+    },
+    new Schedule
+    {
+        Id = "SCHE002",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8050000.0m,
+        Children_price = 5635000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 1, 10, 9, 0, 0),
+        Tour_Id = "TOUR001"
+    },
+    new Schedule
+    {
+        Id = "SCHE003",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 6037500.0m,
+        Children_price = 4226250.0m,
+        Discount = 25,
+        Create_at = new DateTime(2024, 6, 1, 11, 15, 45),
+        Tour_Id = "TOUR001"
+    },
+    new Schedule
+    {
+        Id = "SCHE004",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 6601000.0m,
+        Children_price = 4620700.0m,
+        Discount = 18,
+        Create_at = new DateTime(2025, 4, 20, 16, 0, 0),
+        Tour_Id = "TOUR001"
+    },
+    new Schedule
+    {
+        Id = "SCHE005",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 5635000.0m,
+        Children_price = 3944500.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 10, 15, 8, 0, 0),
+        Tour_Id = "TOUR001"
+    },
+    new Schedule
+    {
+        Id = "SCHE006",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 10764000.0m,
+        Children_price = 7534800.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 1, 10, 0, 0),
+        Tour_Id = "TOUR002"
+    },
+    new Schedule
+    {
+        Id = "SCHE007",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 10990000.0m,
+        Children_price = 7693000.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 5, 18, 15, 0, 0),
+        Tour_Id = "TOUR002"
+    },
+    new Schedule
+    {
+        Id = "SCHE008",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8372000.0m,
+        Children_price = 5860400.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 3, 11, 9, 30, 0),
+        Tour_Id = "TOUR002"
+    },
+    new Schedule
+    {
+        Id = "SCHE009",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 10166000.0m,
+        Children_price = 7116200.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 8, 22, 11, 0, 0),
+        Tour_Id = "TOUR002"
+    },
+    new Schedule
+    {
+        Id = "SCHE010",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 7176000.0m,
+        Children_price = 5023200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 1, 29, 17, 0, 0),
+        Tour_Id = "TOUR002"
+    },
+    new Schedule
+    {
+        Id = "SCHE011",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 4015800.0m,
+        Children_price = 2811060.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 5, 10, 0, 0),
+        Tour_Id = "TOUR003"
+    },
+    new Schedule
+    {
+        Id = "SCHE012",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 3436200.0m,
+        Children_price = 2405340.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 4, 30, 14, 0, 0),
+        Tour_Id = "TOUR003"
+    },
+    new Schedule
+    {
+        Id = "SCHE013",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 3229200.0m,
+        Children_price = 2260440.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 10, 9, 0, 0),
+        Tour_Id = "TOUR003"
+    },
+    new Schedule
+    {
+        Id = "SCHE014",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 3891600.0m,
+        Children_price = 2724120.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 14, 11, 30, 0),
+        Tour_Id = "TOUR003"
+    },
+    new Schedule
+    {
+        Id = "SCHE015",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 2732400.0m,
+        Children_price = 1912680.0m,
+        Discount = 34,
+        Create_at = new DateTime(2024, 11, 20, 16, 45, 0),
+        Tour_Id = "TOUR003"
+    },
+    new Schedule
+    {
+        Id = "SCHE016",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 22,
+        Status = 1,
+        Adult_price = 8128200.0m,
+        Children_price = 5689740.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 1, 9, 10, 0),
+        Tour_Id = "TOUR004"
+    },
+    new Schedule
+    {
+        Id = "SCHE017",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 7429000.0m,
+        Children_price = 5200300.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 25, 14, 0, 0),
+        Tour_Id = "TOUR004"
+    },
+    new Schedule
+    {
+        Id = "SCHE018",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6992000.0m,
+        Children_price = 4894400.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 20, 10, 0, 0),
+        Tour_Id = "TOUR004"
+    },
+    new Schedule
+    {
+        Id = "SCHE019",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8740000.0m,
+        Children_price = 6118000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 5, 16, 30, 0),
+        Tour_Id = "TOUR004"
+    },
+    new Schedule
+    {
+        Id = "SCHE020",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 6118800.0m,
+        Children_price = 4283160.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 4, 1, 8, 45, 0),
+        Tour_Id = "TOUR004"
+    },
+    new Schedule
+    {
+        Id = "SCHE021",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8372000.0m,
+        Children_price = 5860400.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 10, 11, 0, 0),
+        Tour_Id = "TOUR005"
+    },
+    new Schedule
+    {
+        Id = "SCHE022",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 7,
+        Status = 1,
+        Adult_price = 7636000.0m,
+        Children_price = 5345200.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 3, 15, 0, 0),
+        Tour_Id = "TOUR005"
+    },
+    new Schedule
+    {
+        Id = "SCHE023",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 2, 28, 9, 0, 0),
+        Tour_Id = "TOUR005"
+    },
+    new Schedule
+    {
+        Id = "SCHE024",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 9200000.0m,
+        Children_price = 6440000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 18, 14, 30, 0),
+        Tour_Id = "TOUR005"
+    },
+    new Schedule
+    {
+        Id = "SCHE025",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 5520000.0m,
+        Children_price = 3864000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 19, 10, 0, 0),
+        Tour_Id = "TOUR005"
+    },
+    new Schedule
+    {
+        Id = "SCHE026",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 35,
+        Status = 1,
+        Adult_price = 3312000.0m,
+        Children_price = 2318400.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 25, 10, 0, 0),
+        Tour_Id = "TOUR006"
+    },
+    new Schedule
+    {
+        Id = "SCHE027",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 2794500.0m,
+        Children_price = 1956150.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 1, 14, 0, 0),
+        Tour_Id = "TOUR006"
+    },
+    new Schedule
+    {
+        Id = "SCHE028",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2656500.0m,
+        Children_price = 1859550.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 10, 9, 30, 0),
+        Tour_Id = "TOUR006"
+    },
+    new Schedule
+    {
+        Id = "SCHE029",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 28,
+        Status = 1,
+        Adult_price = 3174000.0m,
+        Children_price = 2221800.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 5, 11, 0, 0),
+        Tour_Id = "TOUR006"
+    },
+    new Schedule
+    {
+        Id = "SCHE030",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 2208000.0m,
+        Children_price = 1545600.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 1, 16, 0, 0),
+        Tour_Id = "TOUR006"
+    },
+    new Schedule
+    {
+        Id = "SCHE031",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 3684600.0m,
+        Children_price = 2579220.0m,
+        Discount = 11,
+        Create_at = new DateTime(2024, 2, 14, 10, 30, 0),
+        Tour_Id = "TOUR007"
+    },
+    new Schedule
+    {
+        Id = "SCHE032",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 3477600.0m,
+        Children_price = 2434320.0m,
+        Discount = 16,
+        Create_at = new DateTime(2024, 5, 20, 15, 0, 0),
+        Tour_Id = "TOUR007"
+    },
+    new Schedule
+    {
+        Id = "SCHE033",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 3146400.0m,
+        Children_price = 2202480.0m,
+        Discount = 24,
+        Create_at = new DateTime(2024, 8, 5, 9, 0, 0),
+        Tour_Id = "TOUR007"
+    },
+    new Schedule
+    {
+        Id = "SCHE034",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 4140000.0m,
+        Children_price = 2898000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 28, 11, 45, 0),
+        Tour_Id = "TOUR007"
+    },
+    new Schedule
+    {
+        Id = "SCHE035",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 2610000.0m,
+        Children_price = 1827000.0m,
+        Discount = 37,
+        Create_at = new DateTime(2024, 10, 3, 17, 0, 0),
+        Tour_Id = "TOUR007"
+    },
+    new Schedule
+    {
+        Id = "SCHE036",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 2930200.0m,
+        Children_price = 2051140.0m,
+        Discount = 2,
+        Create_at = new DateTime(2024, 1, 10, 10, 0, 0),
+        Tour_Id = "TOUR008"
+    },
+    new Schedule
+    {
+        Id = "SCHE037",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 2421900.0m,
+        Children_price = 1695330.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 4, 22, 14, 30, 0),
+        Tour_Id = "TOUR008"
+    },
+    new Schedule
+    {
+        Id = "SCHE038",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2202600.0m,
+        Children_price = 1541820.0m,
+        Discount = 26,
+        Create_at = new DateTime(2024, 7, 20, 9, 0, 0),
+        Tour_Id = "TOUR008"
+    },
+    new Schedule
+    {
+        Id = "SCHE039",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 2750800.0m,
+        Children_price = 1925560.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 2, 1, 11, 0, 0),
+        Tour_Id = "TOUR008"
+    },
+    new Schedule
+    {
+        Id = "SCHE040",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 7,
+        Status = 1,
+        Adult_price = 1853800.0m,
+        Children_price = 1297660.0m,
+        Discount = 38,
+        Create_at = new DateTime(2024, 11, 5, 16, 0, 0),
+        Tour_Id = "TOUR008"
+    },
+    new Schedule
+    {
+        Id = "SCHE041",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 9950000.0m,
+        Children_price = 6965000.0m,
+        Discount = 13,
+        Create_at = new DateTime(2024, 3, 8, 10, 30, 0),
+        Tour_Id = "TOUR009"
+    },
+    new Schedule
+    {
+        Id = "SCHE042",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 10810000.0m,
+        Children_price = 7567000.0m,
+        Discount = 6,
+        Create_at = new DateTime(2024, 6, 18, 15, 0, 0),
+        Tour_Id = "TOUR009"
+    },
+    new Schedule
+    {
+        Id = "SCHE043",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8165000.0m,
+        Children_price = 5715500.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 1, 14, 9, 30, 0),
+        Tour_Id = "TOUR009"
+    },
+    new Schedule
+    {
+        Id = "SCHE044",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 10350000.0m,
+        Children_price = 7245000.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 9, 1, 14, 0, 0),
+        Tour_Id = "TOUR009"
+    },
+    new Schedule
+    {
+        Id = "SCHE045",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 7590000.0m,
+        Children_price = 5313000.0m,
+        Discount = 34,
+        Create_at = new DateTime(2025, 4, 25, 17, 30, 0),
+        Tour_Id = "TOUR009"
+    },
+    new Schedule
+    {
+        Id = "SCHE046",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 28,
+        Status = 1,
+        Adult_price = 4370000.0m,
+        Children_price = 3059000.0m,
+        Discount = 5,
+        Create_at = new DateTime(2024, 1, 30, 10, 0, 0),
+        Tour_Id = "TOUR010"
+    },
+    new Schedule
+    {
+        Id = "SCHE047",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 3772000.0m,
+        Children_price = 2640400.0m,
+        Discount = 18,
+        Create_at = new DateTime(2024, 5, 15, 14, 0, 0),
+        Tour_Id = "TOUR010"
+    },
+    new Schedule
+    {
+        Id = "SCHE048",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 3634000.0m,
+        Children_price = 2543800.0m,
+        Discount = 21,
+        Create_at = new DateTime(2024, 8, 8, 9, 0, 0),
+        Tour_Id = "TOUR010"
+    },
+    new Schedule
+    {
+        Id = "SCHE049",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 4600000.0m,
+        Children_price = 3220000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 14, 11, 30, 0),
+        Tour_Id = "TOUR010"
+    },
+    new Schedule
+    {
+        Id = "SCHE050",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 2944000.0m,
+        Children_price = 2060800.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 10, 16, 0, 0),
+        Tour_Id = "TOUR010"
+    },
+    new Schedule
+    {
+        Id = "SCHE051",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 40,
+        Status = 1,
+        Adult_price = 5587500.0m,
+        Children_price = 3911250.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 15, 10, 0, 0),
+        Tour_Id = "TOUR011"
+    },
+    new Schedule
+    {
+        Id = "SCHE052",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 4772500.0m,
+        Children_price = 3340750.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 4, 28, 14, 30, 0),
+        Tour_Id = "TOUR011"
+    },
+    new Schedule
+    {
+        Id = "SCHE053",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4485000.0m,
+        Children_price = 3139500.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 25, 9, 0, 0),
+        Tour_Id = "TOUR011"
+    },
+    new Schedule
+    {
+        Id = "SCHE054",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 5405000.0m,
+        Children_price = 3783500.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 8, 11, 0, 0),
+        Tour_Id = "TOUR011"
+    },
+    new Schedule
+    {
+        Id = "SCHE055",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 3502500.0m,
+        Children_price = 2451750.0m,
+        Discount = 39,
+        Create_at = new DateTime(2024, 12, 10, 16, 0, 0),
+        Tour_Id = "TOUR011"
+    },
+    new Schedule
+    {
+        Id = "SCHE056",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 3726000.0m,
+        Children_price = 2608200.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 20, 10, 30, 0),
+        Tour_Id = "TOUR012"
+    },
+    new Schedule
+    {
+        Id = "SCHE057",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 3519000.0m,
+        Children_price = 2463300.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 25, 15, 0, 0),
+        Tour_Id = "TOUR012"
+    },
+    new Schedule
+    {
+        Id = "SCHE058",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 3022200.0m,
+        Children_price = 2115540.0m,
+        Discount = 27,
+        Create_at = new DateTime(2024, 8, 15, 9, 30, 0),
+        Tour_Id = "TOUR012"
+    },
+    new Schedule
+    {
+        Id = "SCHE059",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 3767400.0m,
+        Children_price = 2637180.0m,
+        Discount = 9,
+        Create_at = new DateTime(2025, 3, 10, 11, 0, 0),
+        Tour_Id = "TOUR012"
+    },
+    new Schedule
+    {
+        Id = "SCHE060",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 2691000.0m,
+        Children_price = 1883700.0m,
+        Discount = 35,
+        Create_at = new DateTime(2024, 11, 25, 16, 30, 0),
+        Tour_Id = "TOUR012"
+    },
+    new Schedule
+    {
+        Id = "SCHE061",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 3459200.0m,
+        Children_price = 2421440.0m,
+        Discount = 6,
+        Create_at = new DateTime(2024, 1, 1, 10, 0, 0),
+        Tour_Id = "TOUR013"
+    },
+    new Schedule
+    {
+        Id = "SCHE062",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 3164800.0m,
+        Children_price = 2215360.0m,
+        Discount = 14,
+        Create_at = new DateTime(2024, 4, 15, 14, 0, 0),
+        Tour_Id = "TOUR013"
+    },
+    new Schedule
+    {
+        Id = "SCHE063",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2649600.0m,
+        Children_price = 1854720.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 7, 5, 9, 0, 0),
+        Tour_Id = "TOUR013"
+    },
+    new Schedule
+    {
+        Id = "SCHE064",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 22,
+        Status = 1,
+        Adult_price = 3496000.0m,
+        Children_price = 2447200.0m,
+        Discount = 5,
+        Create_at = new DateTime(2025, 2, 20, 11, 30, 0),
+        Tour_Id = "TOUR013"
+    },
+    new Schedule
+    {
+        Id = "SCHE065",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 2318400.0m,
+        Children_price = 1622880.0m,
+        Discount = 37,
+        Create_at = new DateTime(2024, 10, 28, 16, 45, 0),
+        Tour_Id = "TOUR013"
+    },
+    new Schedule
+    {
+        Id = "SCHE066",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 5667200.0m,
+        Children_price = 3967040.0m,
+        Discount = 12,
+        Create_at = new DateTime(2024, 3, 12, 10, 0, 0),
+        Tour_Id = "TOUR014"
+    },
+    new Schedule
+    {
+        Id = "SCHE067",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 7,
+        Status = 1,
+        Adult_price = 5924800.0m,
+        Children_price = 4147360.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 6, 28, 15, 0, 0),
+        Tour_Id = "TOUR014"
+    },
+    new Schedule
+    {
+        Id = "SCHE068",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4829800.0m,
+        Children_price = 3380860.0m,
+        Discount = 25,
+        Create_at = new DateTime(2025, 1, 23, 9, 30, 0),
+        Tour_Id = "TOUR014"
+    },
+    new Schedule
+    {
+        Id = "SCHE069",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 10, 14, 0, 0),
+        Tour_Id = "TOUR014"
+    },
+    new Schedule
+    {
+        Id = "SCHE070",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 4314800.0m,
+        Children_price = 3020360.0m,
+        Discount = 33,
+        Create_at = new DateTime(2025, 4, 10, 17, 0, 0),
+        Tour_Id = "TOUR014"
+    },
+    new Schedule
+    {
+        Id = "SCHE071",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 4705800.0m,
+        Children_price = 3294060.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 2, 25, 10, 0, 0),
+        Tour_Id = "TOUR015"
+    },
+    new Schedule
+    {
+        Id = "SCHE072",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 4351600.0m,
+        Children_price = 3046120.0m,
+        Discount = 14,
+        Create_at = new DateTime(2024, 5, 10, 15, 0, 0),
+        Tour_Id = "TOUR015"
+    },
+    new Schedule
+    {
+        Id = "SCHE073",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 3643200.0m,
+        Children_price = 2550240.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 8, 1, 9, 30, 0),
+        Tour_Id = "TOUR015"
+    },
+    new Schedule
+    {
+        Id = "SCHE074",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 4756400.0m,
+        Children_price = 3329480.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0),
+        Tour_Id = "TOUR015"
+    },
+    new Schedule
+    {
+        Id = "SCHE075",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 3228400.0m,
+        Children_price = 2259880.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 15, 16, 45, 0),
+        Tour_Id = "TOUR015"
+    },
+    new Schedule
+    {
+        Id = "SCHE076",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 4195200.0m,
+        Children_price = 2936640.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 8, 10, 0, 0),
+        Tour_Id = "TOUR016"
+    },
+    new Schedule
+    {
+        Id = "SCHE077",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 3539700.0m,
+        Children_price = 2477790.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 4, 20, 14, 30, 0),
+        Tour_Id = "TOUR016"
+    },
+    new Schedule
+    {
+        Id = "SCHE078",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 3364900.0m,
+        Children_price = 2355430.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 7, 18, 9, 0, 0),
+        Tour_Id = "TOUR016"
+    },
+    new Schedule
+    {
+        Id = "SCHE079",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 4020400.0m,
+        Children_price = 2814280.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 2, 10, 11, 0, 0),
+        Tour_Id = "TOUR016"
+    },
+    new Schedule
+    {
+        Id = "SCHE080",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 2665700.0m,
+        Children_price = 1865990.0m,
+        Discount = 39,
+        Create_at = new DateTime(2024, 11, 1, 16, 0, 0),
+        Tour_Id = "TOUR016"
+    },
+    new Schedule
+    {
+        Id = "SCHE081",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 2622000.0m,
+        Children_price = 1835400.0m,
+        Discount = 5,
+        Create_at = new DateTime(2024, 2, 5, 10, 30, 0),
+        Tour_Id = "TOUR017"
+    },
+    new Schedule
+    {
+        Id = "SCHE082",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 2263200.0m,
+        Children_price = 1584240.0m,
+        Discount = 18,
+        Create_at = new DateTime(2024, 5, 5, 15, 0, 0),
+        Tour_Id = "TOUR017"
+    },
+    new Schedule
+    {
+        Id = "SCHE083",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2170800.0m,
+        Children_price = 1519560.0m,
+        Discount = 21,
+        Create_at = new DateTime(2024, 8, 20, 9, 0, 0),
+        Tour_Id = "TOUR017"
+    },
+    new Schedule
+    {
+        Id = "SCHE084",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 2539200.0m,
+        Children_price = 1777440.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 1, 11, 30, 0),
+        Tour_Id = "TOUR017"
+    },
+    new Schedule
+    {
+        Id = "SCHE085",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1766400.0m,
+        Children_price = 1236480.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 10, 20, 16, 0, 0),
+        Tour_Id = "TOUR017"
+    },
+    new Schedule
+    {
+        Id = "SCHE086",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 16813000.0m,
+        Children_price = 11769100.0m,
+        Discount = 14,
+        Create_at = new DateTime(2024, 3, 18, 10, 0, 0),
+        Tour_Id = "TOUR018"
+    },
+    new Schedule
+    {
+        Id = "SCHE087",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 17204000.0m,
+        Children_price = 12042800.0m,
+        Discount = 12,
+        Create_at = new DateTime(2024, 6, 10, 15, 0, 0),
+        Tour_Id = "TOUR018"
+    },
+    new Schedule
+    {
+        Id = "SCHE088",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 14271500.0m,
+        Children_price = 9990050.0m,
+        Discount = 27,
+        Create_at = new DateTime(2025, 1, 18, 9, 30, 0),
+        Tour_Id = "TOUR018"
+    },
+    new Schedule
+    {
+        Id = "SCHE089",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 19550000.0m,
+        Children_price = 13685000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 12, 14, 0, 0),
+        Tour_Id = "TOUR018"
+    },
+    new Schedule
+    {
+        Id = "SCHE090",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 11730000.0m,
+        Children_price = 8211000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 4, 29, 17, 30, 0),
+        Tour_Id = "TOUR018"
+    },
+    new Schedule
+    {
+        Id = "SCHE091",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 35,
+        Status = 1,
+        Adult_price = 2870400.0m,
+        Children_price = 2009280.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 20, 10, 0, 0),
+        Tour_Id = "TOUR019"
+    },
+    new Schedule
+    {
+        Id = "SCHE092",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 2421900.0m,
+        Children_price = 1695330.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 3, 14, 30, 0),
+        Tour_Id = "TOUR019"
+    },
+    new Schedule
+    {
+        Id = "SCHE093",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2202600.0m,
+        Children_price = 1541820.0m,
+        Discount = 26,
+        Create_at = new DateTime(2024, 8, 12, 9, 0, 0),
+        Tour_Id = "TOUR019"
+    },
+    new Schedule
+    {
+        Id = "SCHE094",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 28,
+        Status = 1,
+        Adult_price = 2750800.0m,
+        Children_price = 1925560.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 8, 11, 0, 0),
+        Tour_Id = "TOUR019"
+    },
+    new Schedule
+    {
+        Id = "SCHE095",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1853800.0m,
+        Children_price = 1297660.0m,
+        Discount = 38,
+        Create_at = new DateTime(2024, 11, 3, 16, 0, 0),
+        Tour_Id = "TOUR019"
+    },
+    new Schedule
+    {
+        Id = "SCHE096",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 2093000.0m,
+        Children_price = 1465100.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 2, 18, 10, 0, 0),
+        Tour_Id = "TOUR020"
+    },
+    new Schedule
+    {
+        Id = "SCHE097",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1932000.0m,
+        Children_price = 1352400.0m,
+        Discount = 16,
+        Create_at = new DateTime(2024, 5, 22, 15, 0, 0),
+        Tour_Id = "TOUR020"
+    },
+    new Schedule
+    {
+        Id = "SCHE098",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1748000.0m,
+        Children_price = 1223600.0m,
+        Discount = 24,
+        Create_at = new DateTime(2024, 8, 6, 9, 30, 0),
+        Tour_Id = "TOUR020"
+    },
+    new Schedule
+    {
+        Id = "SCHE099",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 2139000.0m,
+        Children_price = 1497300.0m,
+        Discount = 7,
+        Create_at = new DateTime(2025, 3, 25, 11, 0, 0),
+        Tour_Id = "TOUR020"
+    },
+    new Schedule
+    {
+        Id = "SCHE100",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1449000.0m,
+        Children_price = 1014300.0m,
+        Discount = 37,
+        Create_at = new DateTime(2024, 10, 6, 16, 0, 0),
+        Tour_Id = "TOUR020"
+    },
+    new Schedule
+    {
+        Id = "SCHE101",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 32,
+        Status = 1,
+        Adult_price = 1692800.0m,
+        Children_price = 1184960.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 25, 10, 15, 30),
+        Tour_Id = "TOUR021"
+    },
+    new Schedule
+    {
+        Id = "SCHE102",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1840000.0m,
+        Children_price = 1288000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 1, 15, 9, 30, 0),
+        Tour_Id = "TOUR021"
+    },
+    new Schedule
+    {
+        Id = "SCHE103",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1380000.0m,
+        Children_price = 966000.0m,
+        Discount = 25,
+        Create_at = new DateTime(2024, 6, 5, 11, 45, 10),
+        Tour_Id = "TOUR021"
+    },
+    new Schedule
+    {
+        Id = "SCHE104",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 40,
+        Status = 1,
+        Adult_price = 1508800.0m,
+        Children_price = 1056160.0m,
+        Discount = 18,
+        Create_at = new DateTime(2025, 4, 22, 16, 20, 0),
+        Tour_Id = "TOUR021"
+    },
+    new Schedule
+    {
+        Id = "SCHE105",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1288000.0m,
+        Children_price = 901600.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 10, 20, 8, 30, 0),
+        Tour_Id = "TOUR021"
+    },
+    new Schedule
+    {
+        Id = "SCHE106",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 2070000.0m,
+        Children_price = 1449000.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 5, 10, 30, 0),
+        Tour_Id = "TOUR022"
+    },
+    new Schedule
+    {
+        Id = "SCHE107",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 2116000.0m,
+        Children_price = 1481200.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 5, 20, 15, 0, 0),
+        Tour_Id = "TOUR022"
+    },
+    new Schedule
+    {
+        Id = "SCHE108",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1610000.0m,
+        Children_price = 1127000.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 3, 15, 9, 0, 0),
+        Tour_Id = "TOUR022"
+    },
+    new Schedule
+    {
+        Id = "SCHE109",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1955000.0m,
+        Children_price = 1368500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 8, 25, 11, 10, 0),
+        Tour_Id = "TOUR022"
+    },
+    new Schedule
+    {
+        Id = "SCHE110",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 1380000.0m,
+        Children_price = 966000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 2, 1, 17, 0, 0),
+        Tour_Id = "TOUR022"
+    },
+    new Schedule
+    {
+        Id = "SCHE111",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 2454100.0m,
+        Children_price = 1717870.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 10, 10, 0, 0),
+        Tour_Id = "TOUR023"
+    },
+    new Schedule
+    {
+        Id = "SCHE112",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 2109900.0m,
+        Children_price = 1476930.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 5, 14, 0, 0),
+        Tour_Id = "TOUR023"
+    },
+    new Schedule
+    {
+        Id = "SCHE113",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1973400.0m,
+        Children_price = 1381380.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 15, 9, 0, 0),
+        Tour_Id = "TOUR023"
+    },
+    new Schedule
+    {
+        Id = "SCHE114",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 2378200.0m,
+        Children_price = 1664740.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 20, 11, 30, 0),
+        Tour_Id = "TOUR023"
+    },
+    new Schedule
+    {
+        Id = "SCHE115",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1669800.0m,
+        Children_price = 1168860.0m,
+        Discount = 34,
+        Create_at = new DateTime(2024, 11, 25, 16, 45, 0),
+        Tour_Id = "TOUR023"
+    },
+    new Schedule
+    {
+        Id = "SCHE116",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1925100.0m,
+        Children_price = 1347570.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 5, 9, 10, 0),
+        Tour_Id = "TOUR024"
+    },
+    new Schedule
+    {
+        Id = "SCHE117",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1759500.0m,
+        Children_price = 1231650.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 28, 14, 0, 0),
+        Tour_Id = "TOUR024"
+    },
+    new Schedule
+    {
+        Id = "SCHE118",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1656000.0m,
+        Children_price = 1159200.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 25, 10, 0, 0),
+        Tour_Id = "TOUR024"
+    },
+    new Schedule
+    {
+        Id = "SCHE119",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 2070000.0m,
+        Children_price = 1449000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 10, 16, 30, 0),
+        Tour_Id = "TOUR024"
+    },
+    new Schedule
+    {
+        Id = "SCHE120",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 1449000.0m,
+        Children_price = 1014300.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 4, 5, 8, 45, 0),
+        Tour_Id = "TOUR024"
+    },
+    new Schedule
+    {
+        Id = "SCHE121",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 1988350.0m,
+        Children_price = 1391845.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 15, 11, 0, 0),
+        Tour_Id = "TOUR025"
+    },
+    new Schedule
+    {
+        Id = "SCHE122",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1820550.0m,
+        Children_price = 1274385.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 8, 15, 0, 0),
+        Tour_Id = "TOUR025"
+    },
+    new Schedule
+    {
+        Id = "SCHE123",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1573200.0m,
+        Children_price = 1101240.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 5, 9, 0, 0),
+        Tour_Id = "TOUR025"
+    },
+    new Schedule
+    {
+        Id = "SCHE124",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 22,
+        Status = 1,
+        Adult_price = 2185000.0m,
+        Children_price = 1529500.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 23, 14, 30, 0),
+        Tour_Id = "TOUR025"
+    },
+    new Schedule
+    {
+        Id = "SCHE125",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1311000.0m,
+        Children_price = 917700.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 24, 10, 0, 0),
+        Tour_Id = "TOUR025"
+    },
+    new Schedule
+    {
+        Id = "SCHE126",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 1545600.0m,
+        Children_price = 1081920.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 30, 10, 0, 0),
+        Tour_Id = "TOUR026"
+    },
+    new Schedule
+    {
+        Id = "SCHE127",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1304100.0m,
+        Children_price = 912870.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 8, 14, 0, 0),
+        Tour_Id = "TOUR026"
+    },
+    new Schedule
+    {
+        Id = "SCHE128",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1240300.0m,
+        Children_price = 868210.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 15, 9, 30, 0),
+        Tour_Id = "TOUR026"
+    },
+    new Schedule
+    {
+        Id = "SCHE129",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1481200.0m,
+        Children_price = 1036840.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 10, 11, 0, 0),
+        Tour_Id = "TOUR026"
+    },
+    new Schedule
+    {
+        Id = "SCHE130",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 1030400.0m,
+        Children_price = 721280.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 8, 16, 0, 0),
+        Tour_Id = "TOUR026"
+    },
+    new Schedule
+    {
+        Id = "SCHE131",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 1842300.0m,
+        Children_price = 1289610.0m,
+        Discount = 11,
+        Create_at = new DateTime(2024, 2, 20, 10, 30, 0),
+        Tour_Id = "TOUR027"
+    },
+    new Schedule
+    {
+        Id = "SCHE132",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1738800.0m,
+        Children_price = 1217160.0m,
+        Discount = 16,
+        Create_at = new DateTime(2024, 5, 28, 15, 0, 0),
+        Tour_Id = "TOUR027"
+    },
+    new Schedule
+    {
+        Id = "SCHE133",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1573200.0m,
+        Children_price = 1101240.0m,
+        Discount = 24,
+        Create_at = new DateTime(2024, 8, 10, 9, 0, 0),
+        Tour_Id = "TOUR027"
+    },
+    new Schedule
+    {
+        Id = "SCHE134",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 2070000.0m,
+        Children_price = 1449000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 1, 11, 45, 0),
+        Tour_Id = "TOUR027"
+    },
+    new Schedule
+    {
+        Id = "SCHE135",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1304100.0m,
+        Children_price = 912870.0m,
+        Discount = 37,
+        Create_at = new DateTime(2024, 10, 8, 17, 0, 0),
+        Tour_Id = "TOUR027"
+    },
+    new Schedule
+    {
+        Id = "SCHE136",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 3105000.0m,
+        Children_price = 2173500.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 1, 12, 10, 0, 0),
+        Tour_Id = "TOUR028"
+    },
+    new Schedule
+    {
+        Id = "SCHE137",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 2932500.0m,
+        Children_price = 2052750.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 4, 25, 14, 30, 0),
+        Tour_Id = "TOUR028"
+    },
+    new Schedule
+    {
+        Id = "SCHE138",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2760000.0m,
+        Children_price = 1932000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 7, 23, 9, 0, 0),
+        Tour_Id = "TOUR028"
+    },
+    new Schedule
+    {
+        Id = "SCHE139",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 3174000.0m,
+        Children_price = 2221800.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 2, 5, 11, 0, 0),
+        Tour_Id = "TOUR028"
+    },
+    new Schedule
+    {
+        Id = "SCHE140",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 2070000.0m,
+        Children_price = 1449000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 8, 16, 0, 0),
+        Tour_Id = "TOUR028"
+    },
+    new Schedule
+    {
+        Id = "SCHE141",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 40,
+        Status = 1,
+        Adult_price = 2300000.0m,
+        Children_price = 1610000.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 3, 10, 10, 30, 0),
+        Tour_Id = "TOUR029"
+    },
+    new Schedule
+    {
+        Id = "SCHE142",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 2109900.0m,
+        Children_price = 1476930.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 6, 20, 15, 0, 0),
+        Tour_Id = "TOUR029"
+    },
+    new Schedule
+    {
+        Id = "SCHE143",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1806300.0m,
+        Children_price = 1264410.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 1, 20, 9, 30, 0),
+        Tour_Id = "TOUR029"
+    },
+    new Schedule
+    {
+        Id = "SCHE144",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 35,
+        Status = 1,
+        Adult_price = 2277000.0m,
+        Children_price = 1593900.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 9, 5, 14, 0, 0),
+        Tour_Id = "TOUR029"
+    },
+    new Schedule
+    {
+        Id = "SCHE145",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1669800.0m,
+        Children_price = 1168860.0m,
+        Discount = 34,
+        Create_at = new DateTime(2025, 4, 28, 17, 30, 0),
+        Tour_Id = "TOUR029"
+    },
+    new Schedule
+    {
+        Id = "SCHE146",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 1876800.0m,
+        Children_price = 1313760.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 5, 10, 0, 0),
+        Tour_Id = "TOUR030"
+    },
+    new Schedule
+    {
+        Id = "SCHE147",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 1583550.0m,
+        Children_price = 1108485.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 4, 18, 14, 0, 0),
+        Tour_Id = "TOUR030"
+    },
+    new Schedule
+    {
+        Id = "SCHE148",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1505850.0m,
+        Children_price = 1054095.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 7, 8, 9, 0, 0),
+        Tour_Id = "TOUR030"
+    },
+    new Schedule
+    {
+        Id = "SCHE149",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 1798600.0m,
+        Children_price = 1259020.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 2, 23, 11, 30, 0),
+        Tour_Id = "TOUR030"
+    },
+    new Schedule
+    {
+        Id = "SCHE150",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1251200.0m,
+        Children_price = 875840.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 10, 30, 16, 45, 0),
+        Tour_Id = "TOUR030"
+    },
+    new Schedule
+    {
+        Id = "SCHE151",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 35,
+        Status = 1,
+        Adult_price = 1784800.0m,
+        Children_price = 1249360.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 18, 10, 0, 0),
+        Tour_Id = "TOUR031"
+    },
+    new Schedule
+    {
+        Id = "SCHE152",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 1527200.0m,
+        Children_price = 1069040.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 1, 14, 30, 0),
+        Tour_Id = "TOUR031"
+    },
+    new Schedule
+    {
+        Id = "SCHE153",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1435200.0m,
+        Children_price = 1004640.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 28, 9, 0, 0),
+        Tour_Id = "TOUR031"
+    },
+    new Schedule
+    {
+        Id = "SCHE154",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 1729600.0m,
+        Children_price = 1210720.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 10, 11, 0, 0),
+        Tour_Id = "TOUR031"
+    },
+    new Schedule
+    {
+        Id = "SCHE155",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1122400.0m,
+        Children_price = 785680.0m,
+        Discount = 39,
+        Create_at = new DateTime(2024, 12, 15, 16, 0, 0),
+        Tour_Id = "TOUR031"
+    },
+    new Schedule
+    {
+        Id = "SCHE156",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 1242000.0m,
+        Children_price = 869400.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 25, 10, 30, 0),
+        Tour_Id = "TOUR032"
+    },
+    new Schedule
+    {
+        Id = "SCHE157",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1173000.0m,
+        Children_price = 821100.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 2, 15, 0, 0),
+        Tour_Id = "TOUR032"
+    },
+    new Schedule
+    {
+        Id = "SCHE158",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1007400.0m,
+        Children_price = 705180.0m,
+        Discount = 27,
+        Create_at = new DateTime(2024, 8, 20, 9, 30, 0),
+        Tour_Id = "TOUR032"
+    },
+    new Schedule
+    {
+        Id = "SCHE159",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1269600.0m,
+        Children_price = 888720.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 12, 11, 0, 0),
+        Tour_Id = "TOUR032"
+    },
+    new Schedule
+    {
+        Id = "SCHE160",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 883200.0m,
+        Children_price = 618240.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 28, 16, 30, 0),
+        Tour_Id = "TOUR032"
+    },
+    new Schedule
+    {
+        Id = "SCHE161",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 45,
+        Status = 1,
+        Adult_price = 1115500.0m,
+        Children_price = 780850.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 3, 10, 0, 0),
+        Tour_Id = "TOUR033"
+    },
+    new Schedule
+    {
+        Id = "SCHE162",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 22,
+        Status = 1,
+        Adult_price = 954500.0m,
+        Children_price = 668150.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 4, 16, 14, 0, 0),
+        Tour_Id = "TOUR033"
+    },
+    new Schedule
+    {
+        Id = "SCHE163",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 897000.0m,
+        Children_price = 627900.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 6, 9, 0, 0),
+        Tour_Id = "TOUR033"
+    },
+    new Schedule
+    {
+        Id = "SCHE164",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 35,
+        Status = 1,
+        Adult_price = 1081000.0m,
+        Children_price = 756700.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 21, 11, 30, 0),
+        Tour_Id = "TOUR033"
+    },
+    new Schedule
+    {
+        Id = "SCHE165",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 701500.0m,
+        Children_price = 491050.0m,
+        Discount = 39,
+        Create_at = new DateTime(2024, 10, 29, 16, 45, 0),
+        Tour_Id = "TOUR033"
+    },
+    new Schedule
+    {
+        Id = "SCHE166",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 2566800.0m,
+        Children_price = 1796760.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 15, 10, 0, 0),
+        Tour_Id = "TOUR034"
+    },
+    new Schedule
+    {
+        Id = "SCHE167",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 2346000.0m,
+        Children_price = 1642200.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 30, 15, 0, 0),
+        Tour_Id = "TOUR034"
+    },
+    new Schedule
+    {
+        Id = "SCHE168",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2208000.0m,
+        Children_price = 1545600.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 28, 9, 30, 0),
+        Tour_Id = "TOUR034"
+    },
+    new Schedule
+    {
+        Id = "SCHE169",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 22,
+        Status = 1,
+        Adult_price = 2760000.0m,
+        Children_price = 1932000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 15, 14, 0, 0),
+        Tour_Id = "TOUR034"
+    },
+    new Schedule
+    {
+        Id = "SCHE170",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1932000.0m,
+        Children_price = 1352400.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 5, 2, 17, 0, 0),
+        Tour_Id = "TOUR034"
+    },
+    new Schedule
+    {
+        Id = "SCHE171",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 1610000.0m,
+        Children_price = 1127000.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 2, 8, 10, 0, 0),
+        Tour_Id = "TOUR035"
+    },
+    new Schedule
+    {
+        Id = "SCHE172",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1453500.0m,
+        Children_price = 1017450.0m,
+        Discount = 16,
+        Create_at = new DateTime(2024, 5, 13, 15, 0, 0),
+        Tour_Id = "TOUR035"
+    },
+    new Schedule
+    {
+        Id = "SCHE173",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1311000.0m,
+        Children_price = 917700.0m,
+        Discount = 24,
+        Create_at = new DateTime(2024, 8, 4, 9, 30, 0),
+        Tour_Id = "TOUR035"
+    },
+    new Schedule
+    {
+        Id = "SCHE174",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 1725000.0m,
+        Children_price = 1207500.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 27, 11, 0, 0),
+        Tour_Id = "TOUR035"
+    },
+    new Schedule
+    {
+        Id = "SCHE175",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1086750.0m,
+        Children_price = 760725.0m,
+        Discount = 37,
+        Create_at = new DateTime(2024, 11, 18, 16, 45, 0),
+        Tour_Id = "TOUR035"
+    },
+    new Schedule
+    {
+        Id = "SCHE176",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 35,
+        Status = 1,
+        Adult_price = 1324800.0m,
+        Children_price = 927360.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 11, 10, 0, 0),
+        Tour_Id = "TOUR036"
+    },
+    new Schedule
+    {
+        Id = "SCHE177",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 1117800.0m,
+        Children_price = 782460.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 4, 24, 14, 30, 0),
+        Tour_Id = "TOUR036"
+    },
+    new Schedule
+    {
+        Id = "SCHE178",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1062600.0m,
+        Children_price = 743820.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 7, 20, 9, 0, 0),
+        Tour_Id = "TOUR036"
+    },
+    new Schedule
+    {
+        Id = "SCHE179",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 28,
+        Status = 1,
+        Adult_price = 1269600.0m,
+        Children_price = 888720.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 2, 13, 11, 0, 0),
+        Tour_Id = "TOUR036"
+    },
+    new Schedule
+    {
+        Id = "SCHE180",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 883200.0m,
+        Children_price = 618240.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 6, 16, 0, 0),
+        Tour_Id = "TOUR036"
+    },
+    new Schedule
+    {
+        Id = "SCHE181",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 1163800.0m,
+        Children_price = 814660.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 2, 2, 10, 30, 0),
+        Tour_Id = "TOUR037"
+    },
+    new Schedule
+    {
+        Id = "SCHE182",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1075250.0m,
+        Children_price = 752675.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 10, 15, 0, 0),
+        Tour_Id = "TOUR037"
+    },
+    new Schedule
+    {
+        Id = "SCHE183",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 923450.0m,
+        Children_price = 646415.0m,
+        Discount = 27,
+        Create_at = new DateTime(2024, 8, 23, 9, 30, 0),
+        Tour_Id = "TOUR037"
+    },
+    new Schedule
+    {
+        Id = "SCHE184",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 1151150.0m,
+        Children_price = 805805.0m,
+        Discount = 9,
+        Create_at = new DateTime(2025, 3, 7, 11, 0, 0),
+        Tour_Id = "TOUR037"
+    },
+    new Schedule
+    {
+        Id = "SCHE185",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 809600.0m,
+        Children_price = 566720.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 30, 16, 30, 0),
+        Tour_Id = "TOUR037"
+    },
+    new Schedule
+    {
+        Id = "SCHE186",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1384600.0m,
+        Children_price = 969220.0m,
+        Discount = 14,
+        Create_at = new DateTime(2024, 3, 20, 10, 0, 0),
+        Tour_Id = "TOUR038"
+    },
+    new Schedule
+    {
+        Id = "SCHE187",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1416800.0m,
+        Children_price = 991760.0m,
+        Discount = 12,
+        Create_at = new DateTime(2024, 6, 12, 15, 0, 0),
+        Tour_Id = "TOUR038"
+    },
+    new Schedule
+    {
+        Id = "SCHE188",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1175300.0m,
+        Children_price = 822710.0m,
+        Discount = 27,
+        Create_at = new DateTime(2025, 1, 21, 9, 30, 0),
+        Tour_Id = "TOUR038"
+    },
+    new Schedule
+    {
+        Id = "SCHE189",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1610000.0m,
+        Children_price = 1127000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 14, 14, 0, 0),
+        Tour_Id = "TOUR038"
+    },
+    new Schedule
+    {
+        Id = "SCHE190",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 966000.0m,
+        Children_price = 676200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 1, 17, 30, 0),
+        Tour_Id = "TOUR038"
+    },
+    new Schedule
+    {
+        Id = "SCHE191",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 1766400.0m,
+        Children_price = 1236480.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 23, 10, 0, 0),
+        Tour_Id = "TOUR039"
+    },
+    new Schedule
+    {
+        Id = "SCHE192",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1490400.0m,
+        Children_price = 1043280.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 6, 14, 30, 0),
+        Tour_Id = "TOUR039"
+    },
+    new Schedule
+    {
+        Id = "SCHE193",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1417000.0m,
+        Children_price = 991900.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 15, 9, 0, 0),
+        Tour_Id = "TOUR039"
+    },
+    new Schedule
+    {
+        Id = "SCHE194",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 1692800.0m,
+        Children_price = 1184960.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 11, 11, 0, 0),
+        Tour_Id = "TOUR039"
+    },
+    new Schedule
+    {
+        Id = "SCHE195",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1177600.0m,
+        Children_price = 824320.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 6, 16, 0, 0),
+        Tour_Id = "TOUR039"
+    },
+    new Schedule
+    {
+        Id = "SCHE196",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 2566800.0m,
+        Children_price = 1796760.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 2, 10, 10, 0, 0),
+        Tour_Id = "TOUR040"
+    },
+    new Schedule
+    {
+        Id = "SCHE197",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 2346000.0m,
+        Children_price = 1642200.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 15, 15, 0, 0),
+        Tour_Id = "TOUR040"
+    },
+    new Schedule
+    {
+        Id = "SCHE198",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2208000.0m,
+        Children_price = 1545600.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 8, 9, 30, 0),
+        Tour_Id = "TOUR040"
+    },
+    new Schedule
+    {
+        Id = "SCHE199",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 2760000.0m,
+        Children_price = 1932000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 30, 11, 0, 0),
+        Tour_Id = "TOUR040"
+    },
+    new Schedule
+    {
+        Id = "SCHE200",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1656000.0m,
+        Children_price = 1159200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 10, 9, 16, 0, 0),
+        Tour_Id = "TOUR040"
+    },
+    new Schedule
+    {
+        Id = "SCHE201",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 22,
+        Status = 1,
+        Adult_price = 1269600.0m,
+        Children_price = 888720.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 28, 11, 25, 40),
+        Tour_Id = "TOUR041"
+    },
+    new Schedule
+    {
+        Id = "SCHE202",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1380000.0m,
+        Children_price = 966000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 1, 17, 10, 0, 0),
+        Tour_Id = "TOUR041"
+    },
+    new Schedule
+    {
+        Id = "SCHE203",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1035000.0m,
+        Children_price = 724500.0m,
+        Discount = 25,
+        Create_at = new DateTime(2024, 6, 8, 14, 0, 30),
+        Tour_Id = "TOUR041"
+    },
+    new Schedule
+    {
+        Id = "SCHE204",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 1131600.0m,
+        Children_price = 792120.0m,
+        Discount = 18,
+        Create_at = new DateTime(2025, 4, 25, 16, 40, 0),
+        Tour_Id = "TOUR041"
+    },
+    new Schedule
+    {
+        Id = "SCHE205",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 966000.0m,
+        Children_price = 676200.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 10, 23, 9, 0, 0),
+        Tour_Id = "TOUR041"
+    },
+    new Schedule
+    {
+        Id = "SCHE206",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 2691000.0m,
+        Children_price = 1883700.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 9, 10, 45, 0),
+        Tour_Id = "TOUR042"
+    },
+    new Schedule
+    {
+        Id = "SCHE207",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 2750800.0m,
+        Children_price = 1925560.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 5, 22, 15, 20, 0),
+        Tour_Id = "TOUR042"
+    },
+    new Schedule
+    {
+        Id = "SCHE208",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2093000.0m,
+        Children_price = 1465100.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 3, 18, 9, 10, 0),
+        Tour_Id = "TOUR042"
+    },
+    new Schedule
+    {
+        Id = "SCHE209",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 2541500.0m,
+        Children_price = 1779050.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 8, 28, 11, 30, 0),
+        Tour_Id = "TOUR042"
+    },
+    new Schedule
+    {
+        Id = "SCHE210",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1794000.0m,
+        Children_price = 1255800.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 2, 5, 17, 15, 0),
+        Tour_Id = "TOUR042"
+    },
+    new Schedule
+    {
+        Id = "SCHE211",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1561700.0m,
+        Children_price = 1093190.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 13, 10, 10, 0),
+        Tour_Id = "TOUR043"
+    },
+    new Schedule
+    {
+        Id = "SCHE212",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 7,
+        Status = 1,
+        Adult_price = 1336300.0m,
+        Children_price = 935410.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 8, 14, 10, 0),
+        Tour_Id = "TOUR043"
+    },
+    new Schedule
+    {
+        Id = "SCHE213",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1255800.0m,
+        Children_price = 879060.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 18, 9, 5, 0),
+        Tour_Id = "TOUR043"
+    },
+    new Schedule
+    {
+        Id = "SCHE214",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 1513400.0m,
+        Children_price = 1059380.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 24, 11, 40, 0),
+        Tour_Id = "TOUR043"
+    },
+    new Schedule
+    {
+        Id = "SCHE215",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 1062600.0m,
+        Children_price = 743820.0m,
+        Discount = 34,
+        Create_at = new DateTime(2024, 11, 28, 16, 50, 0),
+        Tour_Id = "TOUR043"
+    },
+    new Schedule
+    {
+        Id = "SCHE216",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 1380350.0m,
+        Children_price = 966245.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 7, 9, 15, 0),
+        Tour_Id = "TOUR044"
+    },
+    new Schedule
+    {
+        Id = "SCHE217",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1270750.0m,
+        Children_price = 889525.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 7, 1, 14, 5, 0),
+        Tour_Id = "TOUR044"
+    },
+    new Schedule
+    {
+        Id = "SCHE218",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1196000.0m,
+        Children_price = 837200.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 28, 10, 5, 0),
+        Tour_Id = "TOUR044"
+    },
+    new Schedule
+    {
+        Id = "SCHE219",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1495000.0m,
+        Children_price = 1046500.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 13, 16, 35, 0),
+        Tour_Id = "TOUR044"
+    },
+    new Schedule
+    {
+        Id = "SCHE220",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 1046500.0m,
+        Children_price = 732550.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 4, 8, 8, 50, 0),
+        Tour_Id = "TOUR044"
+    },
+    new Schedule
+    {
+        Id = "SCHE221",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1579750.0m,
+        Children_price = 1105825.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 18, 11, 0, 0),
+        Tour_Id = "TOUR045"
+    },
+    new Schedule
+    {
+        Id = "SCHE222",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1431750.0m,
+        Children_price = 1002225.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 11, 15, 0, 0),
+        Tour_Id = "TOUR045"
+    },
+    new Schedule
+    {
+        Id = "SCHE223",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1242000.0m,
+        Children_price = 869400.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 8, 9, 0, 0),
+        Tour_Id = "TOUR045"
+    },
+    new Schedule
+    {
+        Id = "SCHE224",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1725000.0m,
+        Children_price = 1207500.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 26, 14, 30, 0),
+        Tour_Id = "TOUR045"
+    },
+    new Schedule
+    {
+        Id = "SCHE225",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 1035000.0m,
+        Children_price = 724500.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 27, 10, 0, 0),
+        Tour_Id = "TOUR045"
+    },
+    new Schedule
+    {
+        Id = "SCHE226",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 45,
+        Status = 1,
+        Adult_price = 1987200.0m,
+        Children_price = 1391040.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 2, 2, 10, 0, 0),
+        Tour_Id = "TOUR046"
+    },
+    new Schedule
+    {
+        Id = "SCHE227",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 1676700.0m,
+        Children_price = 1173690.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 11, 14, 0, 0),
+        Tour_Id = "TOUR046"
+    },
+    new Schedule
+    {
+        Id = "SCHE228",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1593900.0m,
+        Children_price = 1115730.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 18, 9, 30, 0),
+        Tour_Id = "TOUR046"
+    },
+    new Schedule
+    {
+        Id = "SCHE229",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 50,
+        Status = 1,
+        Adult_price = 1904400.0m,
+        Children_price = 1333080.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 15, 11, 0, 0),
+        Tour_Id = "TOUR046"
+    },
+    new Schedule
+    {
+        Id = "SCHE230",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1324800.0m,
+        Children_price = 927360.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 11, 16, 0, 0),
+        Tour_Id = "TOUR046"
+    },
+    new Schedule
+    {
+        Id = "SCHE231",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 45,
+        Status = 1,
+        Adult_price = 2352900.0m,
+        Children_price = 1647030.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 2, 28, 10, 30, 0),
+        Tour_Id = "TOUR047"
+    },
+    new Schedule
+    {
+        Id = "SCHE232",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 2150500.0m,
+        Children_price = 1505350.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 5, 15, 0, 0),
+        Tour_Id = "TOUR047"
+    },
+    new Schedule
+    {
+        Id = "SCHE233",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 2024000.0m,
+        Children_price = 1416800.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 23, 9, 0, 0),
+        Tour_Id = "TOUR047"
+    },
+    new Schedule
+    {
+        Id = "SCHE234",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 35,
+        Status = 1,
+        Adult_price = 2530000.0m,
+        Children_price = 1771000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 4, 11, 45, 0),
+        Tour_Id = "TOUR047"
+    },
+    new Schedule
+    {
+        Id = "SCHE235",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 1644500.0m,
+        Children_price = 1151150.0m,
+        Discount = 35,
+        Create_at = new DateTime(2024, 10, 10, 17, 0, 0),
+        Tour_Id = "TOUR047"
+    },
+    new Schedule
+    {
+        Id = "SCHE236",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 1807300.0m,
+        Children_price = 1265110.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 1, 6, 10, 0, 0),
+        Tour_Id = "TOUR048"
+    },
+    new Schedule
+    {
+        Id = "SCHE237",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 1583550.0m,
+        Children_price = 1108485.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 4, 26, 14, 30, 0),
+        Tour_Id = "TOUR048"
+    },
+    new Schedule
+    {
+        Id = "SCHE238",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1505850.0m,
+        Children_price = 1054095.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 7, 25, 9, 0, 0),
+        Tour_Id = "TOUR048"
+    },
+    new Schedule
+    {
+        Id = "SCHE239",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 1955000.0m,
+        Children_price = 1368500.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 2, 17, 11, 0, 0),
+        Tour_Id = "TOUR048"
+    },
+    new Schedule
+    {
+        Id = "SCHE240",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1251200.0m,
+        Children_price = 875840.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 9, 16, 0, 0),
+        Tour_Id = "TOUR048"
+    },
+    new Schedule
+    {
+        Id = "SCHE241",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 2093000.0m,
+        Children_price = 1465100.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 3, 12, 10, 30, 0),
+        Tour_Id = "TOUR049"
+    },
+    new Schedule
+    {
+        Id = "SCHE242",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 1932000.0m,
+        Children_price = 1352400.0m,
+        Discount = 16,
+        Create_at = new DateTime(2024, 6, 23, 15, 0, 0),
+        Tour_Id = "TOUR049"
+    },
+    new Schedule
+    {
+        Id = "SCHE243",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 1748000.0m,
+        Children_price = 1223600.0m,
+        Discount = 24,
+        Create_at = new DateTime(2025, 1, 24, 9, 30, 0),
+        Tour_Id = "TOUR049"
+    },
+    new Schedule
+    {
+        Id = "SCHE244",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 2300000.0m,
+        Children_price = 1610000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 7, 14, 0, 0),
+        Tour_Id = "TOUR049"
+    },
+    new Schedule
+    {
+        Id = "SCHE245",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 1449000.0m,
+        Children_price = 1014300.0m,
+        Discount = 37,
+        Create_at = new DateTime(2025, 4, 30, 17, 30, 0),
+        Tour_Id = "TOUR049"
+    },
+    new Schedule
+    {
+        Id = "SCHE246",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 14490000.0m,
+        Children_price = 10143000.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 1, 9, 10, 0, 0),
+        Tour_Id = "TOUR050"
+    },
+    new Schedule
+    {
+        Id = "SCHE247",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 13685000.0m,
+        Children_price = 9579500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 4, 29, 14, 0, 0),
+        Tour_Id = "TOUR050"
+    },
+    new Schedule
+    {
+        Id = "SCHE248",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 12880000.0m,
+        Children_price = 9016000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 7, 28, 9, 0, 0),
+        Tour_Id = "TOUR050"
+    },
+    new Schedule
+    {
+        Id = "SCHE249",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 14812000.0m,
+        Children_price = 10368400.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 2, 20, 11, 30, 0),
+        Tour_Id = "TOUR050"
+    },
+    new Schedule
+    {
+        Id = "SCHE250",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 9660000.0m,
+        Children_price = 6762000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 10, 31, 16, 45, 0),
+        Tour_Id = "TOUR050"
+    },
+    new Schedule
+    {
+        Id = "SCHE251",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 22,
+        Status = 1,
+        Adult_price = 8040800.0m,
+        Children_price = 5628560.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 3, 10, 10, 0),
+        Tour_Id = "TOUR051"
+    },
+    new Schedule
+    {
+        Id = "SCHE252",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 8740000.0m,
+        Children_price = 6118000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 6, 15, 15, 0, 0),
+        Tour_Id = "TOUR051"
+    },
+    new Schedule
+    {
+        Id = "SCHE253",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6555000.0m,
+        Children_price = 4588500.0m,
+        Discount = 25,
+        Create_at = new DateTime(2025, 1, 22, 9, 30, 0),
+        Tour_Id = "TOUR051"
+    },
+    new Schedule
+    {
+        Id = "SCHE254",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 7166800.0m,
+        Children_price = 5016760.0m,
+        Discount = 18,
+        Create_at = new DateTime(2024, 9, 4, 16, 30, 0),
+        Tour_Id = "TOUR051"
+    },
+    new Schedule
+    {
+        Id = "SCHE255",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 6118000.0m,
+        Children_price = 4282600.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 4, 27, 8, 45, 0),
+        Tour_Id = "TOUR051"
+    },
+    new Schedule
+    {
+        Id = "SCHE256",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 11385000.0m,
+        Children_price = 7969500.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 1, 7, 10, 0, 0),
+        Tour_Id = "TOUR052"
+    },
+    new Schedule
+    {
+        Id = "SCHE257",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 11638000.0m,
+        Children_price = 8146600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 4, 20, 14, 0, 0),
+        Tour_Id = "TOUR052"
+    },
+    new Schedule
+    {
+        Id = "SCHE258",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8855000.0m,
+        Children_price = 6198500.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 7, 20, 9, 30, 0),
+        Tour_Id = "TOUR052"
+    },
+    new Schedule
+    {
+        Id = "SCHE259",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 10752500.0m,
+        Children_price = 7526750.0m,
+        Discount = 15,
+        Create_at = new DateTime(2025, 3, 1, 11, 0, 0),
+        Tour_Id = "TOUR052"
+    },
+    new Schedule
+    {
+        Id = "SCHE260",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 7590000.0m,
+        Children_price = 5313000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 12, 16, 0, 0),
+        Tour_Id = "TOUR052"
+    },
+    new Schedule
+    {
+        Id = "SCHE261",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 35,
+        Status = 1,
+        Adult_price = 15170800.0m,
+        Children_price = 10619560.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 16, 10, 15, 0),
+        Tour_Id = "TOUR053"
+    },
+    new Schedule
+    {
+        Id = "SCHE262",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 12981200.0m,
+        Children_price = 9086840.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 3, 14, 30, 0),
+        Tour_Id = "TOUR053"
+    },
+    new Schedule
+    {
+        Id = "SCHE263",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 12199200.0m,
+        Children_price = 8539440.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 12, 9, 0, 0),
+        Tour_Id = "TOUR053"
+    },
+    new Schedule
+    {
+        Id = "SCHE264",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 14691600.0m,
+        Children_price = 10284120.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 26, 11, 30, 0),
+        Tour_Id = "TOUR053"
+    },
+    new Schedule
+    {
+        Id = "SCHE265",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 10166000.0m,
+        Children_price = 7116200.0m,
+        Discount = 35,
+        Create_at = new DateTime(2024, 11, 22, 16, 45, 0),
+        Tour_Id = "TOUR053"
+    },
+    new Schedule
+    {
+        Id = "SCHE266",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 17128000.0m,
+        Children_price = 11989600.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 17, 10, 0, 0),
+        Tour_Id = "TOUR054"
+    },
+    new Schedule
+    {
+        Id = "SCHE267",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 15640000.0m,
+        Children_price = 10948000.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 30, 15, 0, 0),
+        Tour_Id = "TOUR054"
+    },
+    new Schedule
+    {
+        Id = "SCHE268",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 14720000.0m,
+        Children_price = 10304000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 30, 9, 30, 0),
+        Tour_Id = "TOUR054"
+    },
+    new Schedule
+    {
+        Id = "SCHE269",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 18400000.0m,
+        Children_price = 12880000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 12, 14, 0, 0),
+        Tour_Id = "TOUR054"
+    },
+    new Schedule
+    {
+        Id = "SCHE270",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 11040000.0m,
+        Children_price = 7728000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 5, 17, 30, 0),
+        Tour_Id = "TOUR054"
+    },
+    new Schedule
+    {
+        Id = "SCHE271",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 9418500.0m,
+        Children_price = 6592950.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 21, 10, 30, 0),
+        Tour_Id = "TOUR055"
+    },
+    new Schedule
+    {
+        Id = "SCHE272",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 4,
+        Status = 1,
+        Adult_price = 8590500.0m,
+        Children_price = 6013350.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 14, 15, 0, 0),
+        Tour_Id = "TOUR055"
+    },
+    new Schedule
+    {
+        Id = "SCHE273",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 7452000.0m,
+        Children_price = 5216400.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 11, 9, 0, 0),
+        Tour_Id = "TOUR055"
+    },
+    new Schedule
+    {
+        Id = "SCHE274",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 10350000.0m,
+        Children_price = 7245000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 29, 14, 30, 0),
+        Tour_Id = "TOUR055"
+    },
+    new Schedule
+    {
+        Id = "SCHE275",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 6210000.0m,
+        Children_price = 4347000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 30, 10, 0, 0),
+        Tour_Id = "TOUR055"
+    },
+    new Schedule
+    {
+        Id = "SCHE276",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 7065600.0m,
+        Children_price = 4945920.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 14, 10, 0, 0),
+        Tour_Id = "TOUR056"
+    },
+    new Schedule
+    {
+        Id = "SCHE277",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 5961600.0m,
+        Children_price = 4173120.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 14, 14, 0, 0),
+        Tour_Id = "TOUR056"
+    },
+    new Schedule
+    {
+        Id = "SCHE278",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5667200.0m,
+        Children_price = 3967040.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 21, 9, 30, 0),
+        Tour_Id = "TOUR056"
+    },
+    new Schedule
+    {
+        Id = "SCHE279",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 6760800.0m,
+        Children_price = 4732560.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 13, 11, 0, 0),
+        Tour_Id = "TOUR056"
+    },
+    new Schedule
+    {
+        Id = "SCHE280",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4710400.0m,
+        Children_price = 3297280.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 18, 16, 0, 0),
+        Tour_Id = "TOUR056"
+    },
+    new Schedule
+    {
+        Id = "SCHE281",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 9625500.0m,
+        Children_price = 6737850.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 2, 12, 10, 30, 0),
+        Tour_Id = "TOUR057"
+    },
+    new Schedule
+    {
+        Id = "SCHE282",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 8797500.0m,
+        Children_price = 6158250.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 18, 15, 0, 0),
+        Tour_Id = "TOUR057"
+    },
+    new Schedule
+    {
+        Id = "SCHE283",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 14, 9, 0, 0),
+        Tour_Id = "TOUR057"
+    },
+    new Schedule
+    {
+        Id = "SCHE284",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 10350000.0m,
+        Children_price = 7245000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 7, 11, 45, 0),
+        Tour_Id = "TOUR057"
+    },
+    new Schedule
+    {
+        Id = "SCHE285",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 10, 13, 17, 0, 0),
+        Tour_Id = "TOUR057"
+    },
+    new Schedule
+    {
+        Id = "SCHE286",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 30,
+        Status = 1,
+        Adult_price = 7700400.0m,
+        Children_price = 5390280.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 5, 10, 0, 0),
+        Tour_Id = "TOUR058"
+    },
+    new Schedule
+    {
+        Id = "SCHE287",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 7038000.0m,
+        Children_price = 4926600.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 26, 15, 0, 0),
+        Tour_Id = "TOUR058"
+    },
+    new Schedule
+    {
+        Id = "SCHE288",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 26, 9, 30, 0),
+        Tour_Id = "TOUR058"
+    },
+    new Schedule
+    {
+        Id = "SCHE289",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 22,
+        Status = 1,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 9, 14, 0, 0),
+        Tour_Id = "TOUR058"
+    },
+    new Schedule
+    {
+        Id = "SCHE290",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 5382000.0m,
+        Children_price = 3767400.0m,
+        Discount = 35,
+        Create_at = new DateTime(2025, 5, 3, 17, 30, 0),
+        Tour_Id = "TOUR058"
+    },
+    new Schedule
+    {
+        Id = "SCHE291",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 6348000.0m,
+        Children_price = 4443600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 2, 19, 10, 30, 0),
+        Tour_Id = "TOUR059"
+    },
+    new Schedule
+    {
+        Id = "SCHE292",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 5865000.0m,
+        Children_price = 4105500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 26, 15, 0, 0),
+        Tour_Id = "TOUR059"
+    },
+    new Schedule
+    {
+        Id = "SCHE293",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5451000.0m,
+        Children_price = 3815700.0m,
+        Discount = 21,
+        Create_at = new DateTime(2024, 8, 17, 9, 30, 0),
+        Tour_Id = "TOUR059"
+    },
+    new Schedule
+    {
+        Id = "SCHE294",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 6900000.0m,
+        Children_price = 4830000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 19, 11, 0, 0),
+        Tour_Id = "TOUR059"
+    },
+    new Schedule
+    {
+        Id = "SCHE295",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4416000.0m,
+        Children_price = 3091200.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 20, 16, 30, 0),
+        Tour_Id = "TOUR059"
+    },
+    new Schedule
+    {
+        Id = "SCHE296",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 31405500.0m,
+        Children_price = 21983850.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 2, 15, 10, 0, 0),
+        Tour_Id = "TOUR060"
+    },
+    new Schedule
+    {
+        Id = "SCHE297",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 28635000.0m,
+        Children_price = 20044500.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 20, 15, 0, 0),
+        Tour_Id = "TOUR060"
+    },
+    new Schedule
+    {
+        Id = "SCHE298",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 24840000.0m,
+        Children_price = 17388000.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 8, 11, 9, 30, 0),
+        Tour_Id = "TOUR060"
+    },
+    new Schedule
+    {
+        Id = "SCHE299",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 34500000.0m,
+        Children_price = 24150000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 14, 11, 0, 0),
+        Tour_Id = "TOUR060"
+    },
+    new Schedule
+    {
+        Id = "SCHE300",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 20700000.0m,
+        Children_price = 14490000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 4, 16, 0, 0),
+        Tour_Id = "TOUR060"
+    },
+    new Schedule
+    {
+        Id = "SCHE301",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 24,
+        Status = 1,
+        Adult_price = 10156800.0m,
+        Children_price = 7109760.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 30, 11, 30, 0),
+        Tour_Id = "TOUR061"
+    },
+    new Schedule
+    {
+        Id = "SCHE302",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 9,
+        Status = 1,
+        Adult_price = 11040000.0m,
+        Children_price = 7728000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 1, 19, 10, 5, 0),
+        Tour_Id = "TOUR061"
+    },
+    new Schedule
+    {
+        Id = "SCHE303",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 25,
+        Create_at = new DateTime(2024, 6, 10, 14, 15, 0),
+        Tour_Id = "TOUR061"
+    },
+    new Schedule
+    {
+        Id = "SCHE304",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 9042800.0m,
+        Children_price = 6330000.0m,
+        Discount = 18,
+        Create_at = new DateTime(2025, 4, 27, 16, 50, 0),
+        Tour_Id = "TOUR061"
+    },
+    new Schedule
+    {
+        Id = "SCHE305",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 6,
+        Status = 1,
+        Adult_price = 7728000.0m,
+        Children_price = 5409600.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 10, 25, 9, 10, 0),
+        Tour_Id = "TOUR061"
+    },
+    new Schedule
+    {
+        Id = "SCHE306",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 18,
+        Status = 1,
+        Adult_price = 11385000.0m,
+        Children_price = 7969500.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 11, 10, 50, 0),
+        Tour_Id = "TOUR062"
+    },
+    new Schedule
+    {
+        Id = "SCHE307",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 7,
+        Status = 1,
+        Adult_price = 11638000.0m,
+        Children_price = 8146600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 5, 24, 15, 30, 0),
+        Tour_Id = "TOUR062"
+    },
+    new Schedule
+    {
+        Id = "SCHE308",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8855000.0m,
+        Children_price = 6198500.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 3, 20, 9, 20, 0),
+        Tour_Id = "TOUR062"
+    },
+    new Schedule
+    {
+        Id = "SCHE309",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 10752500.0m,
+        Children_price = 7526750.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 8, 30, 11, 40, 0),
+        Tour_Id = "TOUR062"
+    },
+    new Schedule
+    {
+        Id = "SCHE310",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 7590000.0m,
+        Children_price = 5313000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 2, 7, 17, 20, 0),
+        Tour_Id = "TOUR062"
+    },
+    new Schedule
+    {
+        Id = "SCHE311",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 16732500.0m,
+        Children_price = 11712750.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 15, 10, 20, 0),
+        Tour_Id = "TOUR063"
+    },
+    new Schedule
+    {
+        Id = "SCHE312",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 14317500.0m,
+        Children_price = 10022250.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 1, 14, 20, 0),
+        Tour_Id = "TOUR063"
+    },
+    new Schedule
+    {
+        Id = "SCHE313",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 13455000.0m,
+        Children_price = 9418500.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 21, 9, 10, 0),
+        Tour_Id = "TOUR063"
+    },
+    new Schedule
+    {
+        Id = "SCHE314",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 16215000.0m,
+        Children_price = 11350500.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 2, 28, 11, 50, 0),
+        Tour_Id = "TOUR063"
+    },
+    new Schedule
+    {
+        Id = "SCHE315",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 11385000.0m,
+        Children_price = 7969500.0m,
+        Discount = 34,
+        Create_at = new DateTime(2024, 11, 24, 17, 0, 0),
+        Tour_Id = "TOUR063"
+    },
+    new Schedule
+    {
+        Id = "SCHE316",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 16928000.0m,
+        Children_price = 11849600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 9, 10, 0, 0),
+        Tour_Id = "TOUR064"
+    },
+    new Schedule
+    {
+        Id = "SCHE317",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 57500000.0m,
+        Children_price = 40250000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 7, 3, 14, 0, 0),
+        Tour_Id = "TOUR064"
+    },
+    new Schedule
+    {
+        Id = "SCHE318",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 43125000.0m,
+        Children_price = 30187500.0m,
+        Discount = 25,
+        Create_at = new DateTime(2025, 1, 31, 10, 10, 0),
+        Tour_Id = "TOUR064"
+    },
+    new Schedule
+    {
+        Id = "SCHE319",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 47150000.0m,
+        Children_price = 33005000.0m,
+        Discount = 18,
+        Create_at = new DateTime(2024, 9, 15, 16, 40, 0),
+        Tour_Id = "TOUR064"
+    },
+    new Schedule
+    {
+        Id = "SCHE320",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 40250000.0m,
+        Children_price = 28175000.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 5, 7, 8, 55, 0),
+        Tour_Id = "TOUR064"
+    },
+    new Schedule
+    {
+        Id = "SCHE321",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8372000.0m,
+        Children_price = 5860400.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 24, 11, 10, 0),
+        Tour_Id = "TOUR065"
+    },
+    new Schedule
+    {
+        Id = "SCHE322",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 7,
+        Status = 1,
+        Adult_price = 7636000.0m,
+        Children_price = 5345200.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 17, 15, 10, 0),
+        Tour_Id = "TOUR065"
+    },
+    new Schedule
+    {
+        Id = "SCHE323",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 14, 9, 5, 0),
+        Tour_Id = "TOUR065"
+    },
+    new Schedule
+    {
+        Id = "SCHE324",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 20,
+        Status = 1,
+        Adult_price = 9200000.0m,
+        Children_price = 6440000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 10, 2, 14, 40, 0),
+        Tour_Id = "TOUR065"
+    },
+    new Schedule
+    {
+        Id = "SCHE325",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 5520000.0m,
+        Children_price = 3864000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 27, 10, 10, 0),
+        Tour_Id = "TOUR065"
+    },
+    new Schedule
+    {
+        Id = "SCHE326",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 35,
+        Status = 1,
+        Adult_price = 6182400.0m,
+        Children_price = 4327680.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 28, 10, 0, 0),
+        Tour_Id = "TOUR066"
+    },
+    new Schedule
+    {
+        Id = "SCHE327",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 5216400.0m,
+        Children_price = 3651480.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 5, 14, 0, 0),
+        Tour_Id = "TOUR066"
+    },
+    new Schedule
+    {
+        Id = "SCHE328",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4969600.0m,
+        Children_price = 3478720.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 18, 9, 30, 0),
+        Tour_Id = "TOUR066"
+    },
+    new Schedule
+    {
+        Id = "SCHE329",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 28,
+        Status = 1,
+        Adult_price = 5924800.0m,
+        Children_price = 4147360.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 17, 11, 0, 0),
+        Tour_Id = "TOUR066"
+    },
+    new Schedule
+    {
+        Id = "SCHE330",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 4121600.0m,
+        Children_price = 2885120.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 15, 16, 0, 0),
+        Tour_Id = "TOUR066"
+    },
+    new Schedule
+    {
+        Id = "SCHE331",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 12,
+        Status = 1,
+        Adult_price = 12558000.0m,
+        Children_price = 8790600.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 2, 24, 10, 30, 0),
+        Tour_Id = "TOUR067"
+    },
+    new Schedule
+    {
+        Id = "SCHE332",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 4,
+        Status = 1,
+        Adult_price = 11454000.0m,
+        Children_price = 8017800.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 6, 3, 15, 0, 0),
+        Tour_Id = "TOUR067"
+    },
+    new Schedule
+    {
+        Id = "SCHE333",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 9936000.0m,
+        Children_price = 6955200.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 8, 26, 9, 0, 0),
+        Tour_Id = "TOUR067"
+    },
+    new Schedule
+    {
+        Id = "SCHE334",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 13800000.0m,
+        Children_price = 9660000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 9, 11, 45, 0),
+        Tour_Id = "TOUR067"
+    },
+    new Schedule
+    {
+        Id = "SCHE335",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 10, 15, 17, 0, 0),
+        Tour_Id = "TOUR067"
+    },
+    new Schedule
+    {
+        Id = "SCHE336",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8040800.0m,
+        Children_price = 5628560.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 10, 10, 0, 0),
+        Tour_Id = "TOUR068"
+    },
+    new Schedule
+    {
+        Id = "SCHE337",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 7429000.0m,
+        Children_price = 5200300.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 28, 15, 0, 0),
+        Tour_Id = "TOUR068"
+    },
+    new Schedule
+    {
+        Id = "SCHE338",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6992000.0m,
+        Children_price = 4894400.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 30, 9, 30, 0),
+        Tour_Id = "TOUR068"
+    },
+    new Schedule
+    {
+        Id = "SCHE339",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 8740000.0m,
+        Children_price = 6118000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 14, 14, 0, 0),
+        Tour_Id = "TOUR068"
+    },
+    new Schedule
+    {
+        Id = "SCHE340",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 6118000.0m,
+        Children_price = 4282600.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 5, 1, 17, 30, 0),
+        Tour_Id = "TOUR068"
+    },
+    new Schedule
+    {
+        Id = "SCHE341",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 14792000.0m,
+        Children_price = 10354400.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 13, 10, 30, 0),
+        Tour_Id = "TOUR069"
+    },
+    new Schedule
+    {
+        Id = "SCHE342",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 13685000.0m,
+        Children_price = 9579500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 21, 15, 0, 0),
+        Tour_Id = "TOUR069"
+    },
+    new Schedule
+    {
+        Id = "SCHE343",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 12880000.0m,
+        Children_price = 9016000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 25, 9, 30, 0),
+        Tour_Id = "TOUR069"
+    },
+    new Schedule
+    {
+        Id = "SCHE344",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 16100000.0m,
+        Children_price = 11270000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 6, 14, 0, 0),
+        Tour_Id = "TOUR069"
+    },
+    new Schedule
+    {
+        Id = "SCHE345",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 9660000.0m,
+        Children_price = 6762000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 4, 29, 17, 30, 0),
+        Tour_Id = "TOUR069"
+    },
+    new Schedule
+    {
+        Id = "SCHE346",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 18837000.0m,
+        Children_price = 13185900.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 1, 8, 10, 0, 0),
+        Tour_Id = "TOUR070"
+    },
+    new Schedule
+    {
+        Id = "SCHE347",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 17201000.0m,
+        Children_price = 12040700.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 4, 22, 14, 0, 0),
+        Tour_Id = "TOUR070"
+    },
+    new Schedule
+    {
+        Id = "SCHE348",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 14904000.0m,
+        Children_price = 10432800.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 7, 11, 9, 0, 0),
+        Tour_Id = "TOUR070"
+    },
+    new Schedule
+    {
+        Id = "SCHE349",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 20700000.0m,
+        Children_price = 14490000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 2, 24, 11, 30, 0),
+        Tour_Id = "TOUR070"
+    },
+    new Schedule
+    {
+        Id = "SCHE350",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 12420000.0m,
+        Children_price = 8694000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 10, 28, 16, 45, 0),
+        Tour_Id = "TOUR070"
+    },
+    new Schedule
+    {
+        Id = "SCHE351",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 7326000.0m,
+        Children_price = 5128200.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 17, 11, 0, 0),
+        Tour_Id = "TOUR071"
+    },
+    new Schedule
+    {
+        Id = "SCHE352",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 6681500.0m,
+        Children_price = 4677050.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 10, 15, 0, 0),
+        Tour_Id = "TOUR071"
+    },
+    new Schedule
+    {
+        Id = "SCHE353",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5796000.0m,
+        Children_price = 4057200.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 10, 9, 0, 0),
+        Tour_Id = "TOUR071"
+    },
+    new Schedule
+    {
+        Id = "SCHE354",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8050000.0m,
+        Children_price = 5635000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 25, 14, 30, 0),
+        Tour_Id = "TOUR071"
+    },
+    new Schedule
+    {
+        Id = "SCHE355",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4830000.0m,
+        Children_price = 3381000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 29, 10, 0, 0),
+        Tour_Id = "TOUR071"
+    },
+    new Schedule
+    {
+        Id = "SCHE356",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 13754000.0m,
+        Children_price = 9627800.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 1, 31, 10, 0, 0),
+        Tour_Id = "TOUR072"
+    },
+    new Schedule
+    {
+        Id = "SCHE357",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 12707500.0m,
+        Children_price = 8895250.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 8, 14, 0, 0),
+        Tour_Id = "TOUR072"
+    },
+    new Schedule
+    {
+        Id = "SCHE358",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 11960000.0m,
+        Children_price = 8372000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 20, 9, 30, 0),
+        Tour_Id = "TOUR072"
+    },
+    new Schedule
+    {
+        Id = "SCHE359",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 14950000.0m,
+        Children_price = 10465000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 20, 11, 0, 0),
+        Tour_Id = "TOUR072"
+    },
+    new Schedule
+    {
+        Id = "SCHE360",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 8970000.0m,
+        Children_price = 6279000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 12, 17, 16, 0, 0),
+        Tour_Id = "TOUR072"
+    },
+    new Schedule
+    {
+        Id = "SCHE361",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 10046400.0m,
+        Children_price = 7032480.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 2, 7, 10, 30, 0),
+        Tour_Id = "TOUR073"
+    },
+    new Schedule
+    {
+        Id = "SCHE362",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 9163200.0m,
+        Children_price = 6414240.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 13, 15, 0, 0),
+        Tour_Id = "TOUR073"
+    },
+    new Schedule
+    {
+        Id = "SCHE363",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 7948800.0m,
+        Children_price = 5564160.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 8, 4, 9, 0, 0),
+        Tour_Id = "TOUR073"
+    },
+    new Schedule
+    {
+        Id = "SCHE364",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 11040000.0m,
+        Children_price = 7728000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 2, 11, 45, 0),
+        Tour_Id = "TOUR073"
+    },
+    new Schedule
+    {
+        Id = "SCHE365",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 10, 11, 17, 0, 0),
+        Tour_Id = "TOUR073"
+    },
+    new Schedule
+    {
+        Id = "SCHE366",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8887200.0m,
+        Children_price = 6221040.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 1, 10, 0, 0),
+        Tour_Id = "TOUR074"
+    },
+    new Schedule
+    {
+        Id = "SCHE367",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 8211000.0m,
+        Children_price = 5747700.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 25, 14, 30, 0),
+        Tour_Id = "TOUR074"
+    },
+    new Schedule
+    {
+        Id = "SCHE368",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 7728000.0m,
+        Children_price = 5409600.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 27, 9, 30, 0),
+        Tour_Id = "TOUR074"
+    },
+    new Schedule
+    {
+        Id = "SCHE369",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 9660000.0m,
+        Children_price = 6762000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 10, 16, 0, 0),
+        Tour_Id = "TOUR074"
+    },
+    new Schedule
+    {
+        Id = "SCHE370",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 5796000.0m,
+        Children_price = 4057200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 4, 17, 30, 0),
+        Tour_Id = "TOUR074"
+    },
+    new Schedule
+    {
+        Id = "SCHE371",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 16928000.0m,
+        Children_price = 11849600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 15, 10, 30, 0),
+        Tour_Id = "TOUR075"
+    },
+    new Schedule
+    {
+        Id = "SCHE372",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 15640000.0m,
+        Children_price = 10948000.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 26, 15, 0, 0),
+        Tour_Id = "TOUR075"
+    },
+    new Schedule
+    {
+        Id = "SCHE373",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 14720000.0m,
+        Children_price = 10304000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 29, 9, 30, 0),
+        Tour_Id = "TOUR075"
+    },
+    new Schedule
+    {
+        Id = "SCHE374",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 18400000.0m,
+        Children_price = 12880000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 11, 14, 0, 0),
+        Tour_Id = "TOUR075"
+    },
+    new Schedule
+    {
+        Id = "SCHE375",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 11040000.0m,
+        Children_price = 7728000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 6, 17, 30, 0),
+        Tour_Id = "TOUR075"
+    },
+    new Schedule
+    {
+        Id = "SCHE376",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 6348000.0m,
+        Children_price = 4443600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 2, 10, 10, 0, 0),
+        Tour_Id = "TOUR076"
+    },
+    new Schedule
+    {
+        Id = "SCHE377",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 5865000.0m,
+        Children_price = 4105500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 16, 14, 0, 0),
+        Tour_Id = "TOUR076"
+    },
+    new Schedule
+    {
+        Id = "SCHE378",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5451000.0m,
+        Children_price = 3815700.0m,
+        Discount = 21,
+        Create_at = new DateTime(2024, 8, 9, 9, 30, 0),
+        Tour_Id = "TOUR076"
+    },
+    new Schedule
+    {
+        Id = "SCHE379",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 6900000.0m,
+        Children_price = 4830000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 15, 11, 0, 0),
+        Tour_Id = "TOUR076"
+    },
+    new Schedule
+    {
+        Id = "SCHE380",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4416000.0m,
+        Children_price = 3091200.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 11, 10, 16, 0, 0),
+        Tour_Id = "TOUR076"
+    },
+    new Schedule
+    {
+        Id = "SCHE381",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 14792000.0m,
+        Children_price = 10354400.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 5, 10, 30, 0),
+        Tour_Id = "TOUR077"
+    },
+    new Schedule
+    {
+        Id = "SCHE382",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 13685000.0m,
+        Children_price = 9579500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 28, 15, 0, 0),
+        Tour_Id = "TOUR077"
+    },
+    new Schedule
+    {
+        Id = "SCHE383",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 12880000.0m,
+        Children_price = 9016000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 30, 9, 30, 0),
+        Tour_Id = "TOUR077"
+    },
+    new Schedule
+    {
+        Id = "SCHE384",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 16100000.0m,
+        Children_price = 11270000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 13, 14, 0, 0),
+        Tour_Id = "TOUR077"
+    },
+    new Schedule
+    {
+        Id = "SCHE385",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 9660000.0m,
+        Children_price = 6762000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 2, 17, 30, 0),
+        Tour_Id = "TOUR077"
+    },
+    new Schedule
+    {
+        Id = "SCHE386",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 7406000.0m,
+        Children_price = 5184200.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 1, 7, 10, 0, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE387",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 6842500.0m,
+        Children_price = 4789750.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 4, 20, 14, 30, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE388",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 7, 19, 9, 0, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE389",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8050000.0m,
+        Children_price = 5635000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 2, 15, 11, 0, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE388",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 7, 19, 9, 0, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE389",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 8050000.0m,
+        Children_price = 5635000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 2, 15, 11, 0, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE390",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4830000.0m,
+        Children_price = 3381000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 8, 16, 0, 0),
+        Tour_Id = "TOUR078"
+    },
+    new Schedule
+    {
+        Id = "SCHE391",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 37008000.0m,
+        Children_price = 25905600.0m,
+        Discount = 11,
+        Create_at = new DateTime(2024, 3, 18, 10, 30, 0),
+        Tour_Id = "TOUR079"
+    },
+    new Schedule
+    {
+        Id = "SCHE392",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 35190000.0m,
+        Children_price = 24633000.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 20, 15, 0, 0),
+        Tour_Id = "TOUR079"
+    },
+    new Schedule
+    {
+        Id = "SCHE393",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 31878000.0m,
+        Children_price = 22314600.0m,
+        Discount = 23,
+        Create_at = new DateTime(2025, 1, 23, 9, 30, 0),
+        Tour_Id = "TOUR079"
+    },
+    new Schedule
+    {
+        Id = "SCHE394",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 41400000.0m,
+        Children_price = 28980000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 5, 14, 0, 0),
+        Tour_Id = "TOUR079"
+    },
+    new Schedule
+    {
+        Id = "SCHE395",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 24840000.0m,
+        Children_price = 17388000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 8, 17, 30, 0),
+        Tour_Id = "TOUR079"
+    },
+    new Schedule
+    {
+        Id = "SCHE396",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 6884800.0m,
+        Children_price = 4819360.0m,
+        Discount = 6,
+        Create_at = new DateTime(2024, 2, 14, 10, 0, 0),
+        Tour_Id = "TOUR080"
+    },
+    new Schedule
+    {
+        Id = "SCHE397",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 6256000.0m,
+        Children_price = 4379200.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 19, 14, 30, 0),
+        Tour_Id = "TOUR080"
+    },
+    new Schedule
+    {
+        Id = "SCHE398",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5961600.0m,
+        Children_price = 4173120.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 8, 10, 9, 30, 0),
+        Tour_Id = "TOUR080"
+    },
+    new Schedule
+    {
+        Id = "SCHE399",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 7360000.0m,
+        Children_price = 5152000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 12, 11, 0, 0),
+        Tour_Id = "TOUR080"
+    },
+    new Schedule
+    {
+        Id = "SCHE400",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 4416000.0m,
+        Children_price = 3091200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 5, 16, 0, 0),
+        Tour_Id = "TOUR080"
+    },
+    new Schedule
+    {
+        Id = "SCHE401",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 28,
+        Status = 1,
+        Adult_price = 5924800.0m,
+        Children_price = 4147360.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 31, 10, 40, 0),
+        Tour_Id = "TOUR081"
+    },
+    new Schedule
+    {
+        Id = "SCHE402",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 1, 20, 9, 45, 0),
+        Tour_Id = "TOUR081"
+    },
+    new Schedule
+    {
+        Id = "SCHE403",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4830000.0m,
+        Children_price = 3381000.0m,
+        Discount = 25,
+        Create_at = new DateTime(2024, 6, 11, 14, 20, 0),
+        Tour_Id = "TOUR081"
+    },
+    new Schedule
+    {
+        Id = "SCHE404",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 35,
+        Status = 1,
+        Adult_price = 5281000.0m,
+        Children_price = 3696700.0m,
+        Discount = 18,
+        Create_at = new DateTime(2025, 4, 29, 17, 0, 0),
+        Tour_Id = "TOUR081"
+    },
+    new Schedule
+    {
+        Id = "SCHE405",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4508000.0m,
+        Children_price = 3155600.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 10, 26, 9, 20, 0),
+        Tour_Id = "TOUR081"
+    },
+    new Schedule
+    {
+        Id = "SCHE406",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 14, 11, 0, 0),
+        Tour_Id = "TOUR082"
+    },
+    new Schedule
+    {
+        Id = "SCHE407",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 6771200.0m,
+        Children_price = 4739840.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 5, 27, 15, 40, 0),
+        Tour_Id = "TOUR082"
+    },
+    new Schedule
+    {
+        Id = "SCHE408",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5152000.0m,
+        Children_price = 3606400.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 3, 23, 9, 30, 0),
+        Tour_Id = "TOUR082"
+    },
+    new Schedule
+    {
+        Id = "SCHE409",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 6256000.0m,
+        Children_price = 4379200.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 9, 1, 11, 50, 0),
+        Tour_Id = "TOUR082"
+    },
+    new Schedule
+    {
+        Id = "SCHE410",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 4416000.0m,
+        Children_price = 3091200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 2, 10, 17, 30, 0),
+        Tour_Id = "TOUR082"
+    },
+    new Schedule
+    {
+        Id = "SCHE411",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 10039500.0m,
+        Children_price = 7027650.0m,
+        Discount = 3,
+        Create_at = new DateTime(2024, 1, 17, 10, 25, 0),
+        Tour_Id = "TOUR083"
+    },
+    new Schedule
+    {
+        Id = "SCHE412",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 8580000.0m,
+        Children_price = 6006000.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 6, 14, 35, 0),
+        Tour_Id = "TOUR083"
+    },
+    new Schedule
+    {
+        Id = "SCHE413",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8073000.0m,
+        Children_price = 5651100.0m,
+        Discount = 22,
+        Create_at = new DateTime(2024, 7, 23, 9, 15, 0),
+        Tour_Id = "TOUR083"
+    },
+    new Schedule
+    {
+        Id = "SCHE414",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 9730000.0m,
+        Children_price = 6811000.0m,
+        Discount = 6,
+        Create_at = new DateTime(2025, 3, 3, 11, 55, 0),
+        Tour_Id = "TOUR083"
+    },
+    new Schedule
+    {
+        Id = "SCHE415",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 6831000.0m,
+        Children_price = 4781700.0m,
+        Discount = 34,
+        Create_at = new DateTime(2024, 11, 26, 17, 10, 0),
+        Tour_Id = "TOUR083"
+    },
+    new Schedule
+    {
+        Id = "SCHE416",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 7486500.0m,
+        Children_price = 5240550.0m,
+        Discount = 7,
+        Create_at = new DateTime(2024, 3, 11, 9, 25, 0),
+        Tour_Id = "TOUR084"
+    },
+    new Schedule
+    {
+        Id = "SCHE417",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 6842500.0m,
+        Children_price = 4789750.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 7, 4, 14, 10, 0),
+        Tour_Id = "TOUR084"
+    },
+    new Schedule
+    {
+        Id = "SCHE418",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 2, 1, 10, 15, 0),
+        Tour_Id = "TOUR084"
+    },
+    new Schedule
+    {
+        Id = "SCHE419",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 8050000.0m,
+        Children_price = 5635000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 16, 16, 45, 0),
+        Tour_Id = "TOUR084"
+    },
+    new Schedule
+    {
+        Id = "SCHE420",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 5635000.0m,
+        Children_price = 3944500.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 5, 9, 8, 55, 0),
+        Tour_Id = "TOUR084"
+    },
+    new Schedule
+    {
+        Id = "SCHE421",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 8372000.0m,
+        Children_price = 5860400.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 19, 11, 20, 0),
+        Tour_Id = "TOUR085"
+    },
+    new Schedule
+    {
+        Id = "SCHE422",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 7636000.0m,
+        Children_price = 5345200.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 12, 15, 15, 0),
+        Tour_Id = "TOUR085"
+    },
+    new Schedule
+    {
+        Id = "SCHE423",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 15, 9, 10, 0),
+        Tour_Id = "TOUR085"
+    },
+    new Schedule
+    {
+        Id = "SCHE424",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 9200000.0m,
+        Children_price = 6440000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 10, 3, 14, 50, 0),
+        Tour_Id = "TOUR085"
+    },
+    new Schedule
+    {
+        Id = "SCHE425",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 5520000.0m,
+        Children_price = 3864000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 28, 10, 20, 0),
+        Tour_Id = "TOUR085"
+    },
+    new Schedule
+    {
+        Id = "SCHE426",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 6624000.0m,
+        Children_price = 4636800.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 29, 10, 5, 0),
+        Tour_Id = "TOUR086"
+    },
+    new Schedule
+    {
+        Id = "SCHE427",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 5589000.0m,
+        Children_price = 3912300.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 7, 14, 5, 0),
+        Tour_Id = "TOUR086"
+    },
+    new Schedule
+    {
+        Id = "SCHE428",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5313000.0m,
+        Children_price = 3719100.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 19, 9, 35, 0),
+        Tour_Id = "TOUR086"
+    },
+    new Schedule
+    {
+        Id = "SCHE429",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 30,
+        Status = 1,
+        Adult_price = 6348000.0m,
+        Children_price = 4443600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 18, 11, 5, 0),
+        Tour_Id = "TOUR086"
+    },
+    new Schedule
+    {
+        Id = "SCHE430",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4416000.0m,
+        Children_price = 3091200.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 16, 16, 10, 0),
+        Tour_Id = "TOUR086"
+    },
+    new Schedule
+    {
+        Id = "SCHE431",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 18,
+        Status = 1,
+        Adult_price = 8887200.0m,
+        Children_price = 6221040.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 2, 25, 10, 40, 0),
+        Tour_Id = "TOUR087"
+    },
+    new Schedule
+    {
+        Id = "SCHE432",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 7,
+        Status = 1,
+        Adult_price = 8211000.0m,
+        Children_price = 5747700.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 4, 15, 10, 0),
+        Tour_Id = "TOUR087"
+    },
+    new Schedule
+    {
+        Id = "SCHE433",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 7728000.0m,
+        Children_price = 5409600.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 27, 9, 0, 0),
+        Tour_Id = "TOUR087"
+    },
+    new Schedule
+    {
+        Id = "SCHE434",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 9660000.0m,
+        Children_price = 6762000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 4, 10, 11, 50, 0),
+        Tour_Id = "TOUR087"
+    },
+    new Schedule
+    {
+        Id = "SCHE435",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 5796000.0m,
+        Children_price = 4057200.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 10, 16, 17, 20, 0),
+        Tour_Id = "TOUR087"
+    },
+    new Schedule
+    {
+        Id = "SCHE436",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 10,
+        Status = 1,
+        Adult_price = 14792000.0m,
+        Children_price = 10354400.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 19, 10, 0, 0),
+        Tour_Id = "TOUR088"
+    },
+    new Schedule
+    {
+        Id = "SCHE437",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 13685000.0m,
+        Children_price = 9579500.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 7, 2, 14, 0, 0),
+        Tour_Id = "TOUR088"
+    },
+    new Schedule
+    {
+        Id = "SCHE438",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 12880000.0m,
+        Children_price = 9016000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 2, 3, 10, 0, 0),
+        Tour_Id = "TOUR088"
+    },
+    new Schedule
+    {
+        Id = "SCHE439",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 16100000.0m,
+        Children_price = 11270000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 17, 16, 30, 0),
+        Tour_Id = "TOUR088"
+    },
+    new Schedule
+    {
+        Id = "SCHE440",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 2,
+        Status = 1,
+        Adult_price = 9660000.0m,
+        Children_price = 6762000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 10, 8, 50, 0),
+        Tour_Id = "TOUR088"
+    },
+    new Schedule
+    {
+        Id = "SCHE441",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 10415000.0m,
+        Children_price = 7290500.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 4, 20, 11, 25, 0),
+        Tour_Id = "TOUR089"
+    },
+    new Schedule
+    {
+        Id = "SCHE442",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 9545000.0m,
+        Children_price = 6681500.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 7, 13, 15, 10, 0),
+        Tour_Id = "TOUR089"
+    },
+    new Schedule
+    {
+        Id = "SCHE443",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 3, 16, 9, 5, 0),
+        Tour_Id = "TOUR089"
+    },
+    new Schedule
+    {
+        Id = "SCHE444",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 11500000.0m,
+        Children_price = 8050000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 10, 4, 14, 45, 0),
+        Tour_Id = "TOUR089"
+    },
+    new Schedule
+    {
+        Id = "SCHE445",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 6900000.0m,
+        Children_price = 4830000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 3, 29, 10, 15, 0),
+        Tour_Id = "TOUR089"
+    },
+    new Schedule
+    {
+        Id = "SCHE446",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 6182400.0m,
+        Children_price = 4327680.0m,
+        Discount = 4,
+        Create_at = new DateTime(2024, 1, 30, 10, 0, 0),
+        Tour_Id = "TOUR090"
+    },
+    new Schedule
+    {
+        Id = "SCHE447",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 5216400.0m,
+        Children_price = 3651480.0m,
+        Discount = 19,
+        Create_at = new DateTime(2024, 5, 9, 14, 0, 0),
+        Tour_Id = "TOUR090"
+    },
+    new Schedule
+    {
+        Id = "SCHE448",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4969600.0m,
+        Children_price = 3478720.0m,
+        Discount = 23,
+        Create_at = new DateTime(2024, 8, 22, 9, 30, 0),
+        Tour_Id = "TOUR090"
+    },
+    new Schedule
+    {
+        Id = "SCHE449",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 25,
+        Status = 1,
+        Adult_price = 5924800.0m,
+        Children_price = 4147360.0m,
+        Discount = 8,
+        Create_at = new DateTime(2025, 3, 20, 11, 0, 0),
+        Tour_Id = "TOUR090"
+    },
+    new Schedule
+    {
+        Id = "SCHE450",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 4121600.0m,
+        Children_price = 2885120.0m,
+        Discount = 36,
+        Create_at = new DateTime(2024, 12, 18, 16, 0, 0),
+        Tour_Id = "TOUR090"
+    },
+    new Schedule
+    {
+        Id = "SCHE451",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 32,
+        Status = 1,
+        Adult_price = 5290000.0m,
+        Children_price = 3703000.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 4, 10, 45, 0),
+        Tour_Id = "TOUR091"
+    },
+    new Schedule
+    {
+        Id = "SCHE452",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 5750000.0m,
+        Children_price = 4025000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 6, 16, 15, 0, 0),
+        Tour_Id = "TOUR091"
+    },
+    new Schedule
+    {
+        Id = "SCHE453",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4312500.0m,
+        Children_price = 3018750.0m,
+        Discount = 25,
+        Create_at = new DateTime(2025, 1, 24, 9, 30, 0),
+        Tour_Id = "TOUR091"
+    },
+    new Schedule
+    {
+        Id = "SCHE454",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 40,
+        Status = 1,
+        Adult_price = 4715000.0m,
+        Children_price = 3300500.0m,
+        Discount = 18,
+        Create_at = new DateTime(2024, 9, 7, 16, 30, 0),
+        Tour_Id = "TOUR091"
+    },
+    new Schedule
+    {
+        Id = "SCHE455",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 6,
+        Status = 1,
+        Adult_price = 4025000.0m,
+        Children_price = 2817500.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 4, 30, 8, 45, 0),
+        Tour_Id = "TOUR091"
+    },
+    new Schedule
+    {
+        Id = "SCHE456",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 10,
+        Create_at = new DateTime(2024, 2, 17, 10, 30, 0),
+        Tour_Id = "TOUR092"
+    },
+    new Schedule
+    {
+        Id = "SCHE457",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 8464000.0m,
+        Children_price = 5924800.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 5, 29, 15, 0, 0),
+        Tour_Id = "TOUR092"
+    },
+    new Schedule
+    {
+        Id = "SCHE458",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 30,
+        Create_at = new DateTime(2025, 3, 25, 9, 30, 0),
+        Tour_Id = "TOUR092"
+    },
+    new Schedule
+    {
+        Id = "SCHE459",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 7820000.0m,
+        Children_price = 5474000.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 9, 3, 11, 0, 0),
+        Tour_Id = "TOUR092"
+    },
+    new Schedule
+    {
+        Id = "SCHE460",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 5520000.0m,
+        Children_price = 3864000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 2, 12, 17, 0, 0),
+        Tour_Id = "TOUR092"
+    },
+    new Schedule
+    {
+        Id = "SCHE461",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 5924800.0m,
+        Children_price = 4147360.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 1, 20, 10, 0, 0),
+        Tour_Id = "TOUR093"
+    },
+    new Schedule
+    {
+        Id = "SCHE462",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 5474000.0m,
+        Children_price = 3831800.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 4, 14, 0, 0),
+        Tour_Id = "TOUR093"
+    },
+    new Schedule
+    {
+        Id = "SCHE463",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 5152000.0m,
+        Children_price = 3606400.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 17, 9, 30, 0),
+        Tour_Id = "TOUR093"
+    },
+    new Schedule
+    {
+        Id = "SCHE464",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 6440000.0m,
+        Children_price = 4508000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 16, 11, 0, 0),
+        Tour_Id = "TOUR093"
+    },
+    new Schedule
+    {
+        Id = "SCHE465",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 3864000.0m,
+        Children_price = 2704800.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 12, 13, 16, 0, 0),
+        Tour_Id = "TOUR093"
+    },
+    new Schedule
+    {
+        Id = "SCHE466",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 25196000.0m,
+        Children_price = 17637200.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 3, 22, 10, 30, 0),
+        Tour_Id = "TOUR094"
+    },
+    new Schedule
+    {
+        Id = "SCHE467",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 22908000.0m,
+        Children_price = 16035600.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 6, 25, 15, 0, 0),
+        Tour_Id = "TOUR094"
+    },
+    new Schedule
+    {
+        Id = "SCHE468",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 19872000.0m,
+        Children_price = 13910400.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 1, 27, 9, 30, 0),
+        Tour_Id = "TOUR094"
+    },
+    new Schedule
+    {
+        Id = "SCHE469",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 27600000.0m,
+        Children_price = 19320000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 8, 14, 0, 0),
+        Tour_Id = "TOUR094"
+    },
+    new Schedule
+    {
+        Id = "SCHE470",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 16560000.0m,
+        Children_price = 11592000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 1, 17, 30, 0),
+        Tour_Id = "TOUR094"
+    },
+    new Schedule
+    {
+        Id = "SCHE471",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 25,
+        Status = 1,
+        Adult_price = 5621200.0m,
+        Children_price = 3934840.0m,
+        Discount = 6,
+        Create_at = new DateTime(2024, 2, 11, 10, 0, 0),
+        Tour_Id = "TOUR095"
+    },
+    new Schedule
+    {
+        Id = "SCHE472",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 10,
+        Status = 1,
+        Adult_price = 5083000.0m,
+        Children_price = 3558100.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 5, 17, 14, 30, 0),
+        Tour_Id = "TOUR095"
+    },
+    new Schedule
+    {
+        Id = "SCHE473",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 4784000.0m,
+        Children_price = 3348800.0m,
+        Discount = 20,
+        Create_at = new DateTime(2024, 8, 10, 9, 30, 0),
+        Tour_Id = "TOUR095"
+    },
+    new Schedule
+    {
+        Id = "SCHE474",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 18,
+        Status = 1,
+        Adult_price = 5980000.0m,
+        Children_price = 4186000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 19, 11, 0, 0),
+        Tour_Id = "TOUR095"
+    },
+    new Schedule
+    {
+        Id = "SCHE475",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 5,
+        Status = 1,
+        Adult_price = 3588000.0m,
+        Children_price = 2511600.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 12, 16, 0, 0),
+        Tour_Id = "TOUR095"
+    },
+    new Schedule
+    {
+        Id = "SCHE476",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 20,
+        Status = 1,
+        Adult_price = 10415000.0m,
+        Children_price = 7290500.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 3, 7, 10, 30, 0),
+        Tour_Id = "TOUR096"
+    },
+    new Schedule
+    {
+        Id = "SCHE477",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 8,
+        Status = 1,
+        Adult_price = 9545000.0m,
+        Children_price = 6681500.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 6, 29, 15, 0, 0),
+        Tour_Id = "TOUR096"
+    },
+    new Schedule
+    {
+        Id = "SCHE478",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 8280000.0m,
+        Children_price = 5796000.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 2, 1, 9, 30, 0),
+        Tour_Id = "TOUR096"
+    },
+    new Schedule
+    {
+        Id = "SCHE479",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 15,
+        Status = 1,
+        Adult_price = 11500000.0m,
+        Children_price = 8050000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 13, 14, 0, 0),
+        Tour_Id = "TOUR096"
+    },
+    new Schedule
+    {
+        Id = "SCHE480",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 4,
+        Status = 1,
+        Adult_price = 6900000.0m,
+        Children_price = 4830000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 5, 7, 17, 30, 0),
+        Tour_Id = "TOUR096"
+    },
+    new Schedule
+    {
+        Id = "SCHE481",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 16928000.0m,
+        Children_price = 11849600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 3, 20, 10, 0, 0),
+        Tour_Id = "TOUR097"
+    },
+    new Schedule
+    {
+        Id = "SCHE482",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 15640000.0m,
+        Children_price = 10948000.0m,
+        Discount = 15,
+        Create_at = new DateTime(2024, 6, 22, 15, 0, 0),
+        Tour_Id = "TOUR097"
+    },
+    new Schedule
+    {
+        Id = "SCHE483",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 14720000.0m,
+        Children_price = 10304000.0m,
+        Discount = 20,
+        Create_at = new DateTime(2025, 1, 25, 9, 30, 0),
+        Tour_Id = "TOUR097"
+    },
+    new Schedule
+    {
+        Id = "SCHE484",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 18400000.0m,
+        Children_price = 12880000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 6, 14, 0, 0),
+        Tour_Id = "TOUR097"
+    },
+    new Schedule
+    {
+        Id = "SCHE485",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 11040000.0m,
+        Children_price = 7728000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 4, 29, 17, 30, 0),
+        Tour_Id = "TOUR097"
+    },
+    new Schedule
+    {
+        Id = "SCHE486",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 59248000.0m,
+        Children_price = 41473600.0m,
+        Discount = 8,
+        Create_at = new DateTime(2024, 1, 8, 10, 0, 0),
+        Tour_Id = "TOUR098"
+    },
+    new Schedule
+    {
+        Id = "SCHE487",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 64400000.0m,
+        Children_price = 45080000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 4, 20, 14, 0, 0),
+        Tour_Id = "TOUR098"
+    },
+    new Schedule
+    {
+        Id = "SCHE488",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 48300000.0m,
+        Children_price = 33810000.0m,
+        Discount = 25,
+        Create_at = new DateTime(2024, 7, 19, 9, 0, 0),
+        Tour_Id = "TOUR098"
+    },
+    new Schedule
+    {
+        Id = "SCHE489",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 52810000.0m,
+        Children_price = 36967000.0m,
+        Discount = 18,
+        Create_at = new DateTime(2025, 2, 15, 11, 0, 0),
+        Tour_Id = "TOUR098"
+    },
+    new Schedule
+    {
+        Id = "SCHE490",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 45080000.0m,
+        Children_price = 31556000.0m,
+        Discount = 30,
+        Create_at = new DateTime(2024, 11, 8, 16, 0, 0),
+        Tour_Id = "TOUR098"
+    },
+    new Schedule
+    {
+        Id = "SCHE491",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 15,
+        Status = 1,
+        Adult_price = 25196000.0m,
+        Children_price = 17637200.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 3, 12, 10, 30, 0),
+        Tour_Id = "TOUR099"
+    },
+    new Schedule
+    {
+        Id = "SCHE492",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 22908000.0m,
+        Children_price = 16035600.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 6, 21, 15, 0, 0),
+        Tour_Id = "TOUR099"
+    },
+    new Schedule
+    {
+        Id = "SCHE493",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 19872000.0m,
+        Children_price = 13910400.0m,
+        Discount = 28,
+        Create_at = new DateTime(2025, 1, 25, 9, 30, 0),
+        Tour_Id = "TOUR099"
+    },
+    new Schedule
+    {
+        Id = "SCHE494",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 12,
+        Status = 1,
+        Adult_price = 27600000.0m,
+        Children_price = 19320000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2024, 9, 6, 14, 0, 0),
+        Tour_Id = "TOUR099"
+    },
+    new Schedule
+    {
+        Id = "SCHE495",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 3,
+        Status = 1,
+        Adult_price = 16560000.0m,
+        Children_price = 11592000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2025, 4, 29, 17, 30, 0),
+        Tour_Id = "TOUR099"
+    },
+    new Schedule
+    {
+        Id = "SCHE496",
+        Start_date = new DateOnly(2025, 6, 1),
+        Available = 8,
+        Status = 1,
+        Adult_price = 19883500.0m,
+        Children_price = 13918450.0m,
+        Discount = 9,
+        Create_at = new DateTime(2024, 2, 14, 10, 0, 0),
+        Tour_Id = "TOUR100"
+    },
+    new Schedule
+    {
+        Id = "SCHE497",
+        Start_date = new DateOnly(2025, 7, 15),
+        Available = 3,
+        Status = 1,
+        Adult_price = 18135500.0m,
+        Children_price = 12694850.0m,
+        Discount = 17,
+        Create_at = new DateTime(2024, 5, 19, 14, 30, 0),
+        Tour_Id = "TOUR100"
+    },
+    new Schedule
+    {
+        Id = "SCHE498",
+        Start_date = new DateOnly(2025, 9, 1),
+        Available = 0,
+        Status = 0,
+        Adult_price = 15732000.0m,
+        Children_price = 11012400.0m,
+        Discount = 28,
+        Create_at = new DateTime(2024, 8, 11, 9, 30, 0),
+        Tour_Id = "TOUR100"
+    },
+    new Schedule
+    {
+        Id = "SCHE499",
+        Start_date = new DateOnly(2025, 10, 15),
+        Available = 5,
+        Status = 1,
+        Adult_price = 21850000.0m,
+        Children_price = 15295000.0m,
+        Discount = 0,
+        Create_at = new DateTime(2025, 3, 12, 11, 0, 0),
+        Tour_Id = "TOUR100"
+    },
+    new Schedule
+    {
+        Id = "SCHE500",
+        Start_date = new DateOnly(2025, 12, 1),
+        Available = 1,
+        Status = 1,
+        Adult_price = 13110000.0m,
+        Children_price = 9177000.0m,
+        Discount = 40,
+        Create_at = new DateTime(2024, 11, 5, 16, 0, 0),
+        Tour_Id = "TOUR100"
+    }
+);

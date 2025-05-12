@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ht/79wE/WjbW/7TWpaVU2Za8MfOpL6zOIdo18YXTPQU=",
+  "Hash": "pXhw/He0dqYsgbtYPVlnADOAIZmgAHf8sQItrnB4ODc=",
   "Source": "TourismWeb",
   "BasePath": "_content/TourismWeb",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "TourismWeb\\wwwroot",
       "Source": "TourismWeb",
-      "ContentRoot": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\wwwroot\\",
       "BasePath": "_content/TourismWeb",
       "Pattern": "**"
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\TourismWeb.csproj": {}
+    "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\TourismWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\TourismWeb.csproj": {
+    "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\TourismWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\TourismWeb.csproj",
+        "projectUniqueName": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\TourismWeb.csproj",
         "projectName": "TourismWeb",
-        "projectPath": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\TourismWeb.csproj",
+        "projectPath": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\TourismWeb.csproj",
         "packagesPath": "C:\\Users\\giahu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\obj\\",
+        "outputPath": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,6 +85,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

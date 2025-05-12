@@ -1,0 +1,4502 @@
+modelBuilder.Entity<Review>().HasData(
+    new Review
+    {
+        Id = "REV001",
+        Tour_Id = "TOUR001",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ, hướng dẫn viên nhiệt tình.",
+        Create_at = new DateTime(2024, 7, 22, 9, 45, 11)
+    },
+    new Review
+    {
+        Id = "REV002",
+        Tour_Id = "TOUR001",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Rất hài lòng với chuyến đi này. Khách sạn sạch sẽ, thoải mái, lịch trình hợp lý.",
+        Create_at = new DateTime(2025, 3, 10, 16, 20, 5)
+    },
+    new Review
+    {
+        Id = "REV003",
+        Tour_Id = "TOUR001",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật nhưng cũng không tệ. Mọi thứ khá ổn.",
+        Create_at = new DateTime(2024, 11, 1, 11, 0, 55)
+    },
+    new Review
+    {
+        Id = "REV004",
+        Tour_Id = "TOUR001",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Hướng dẫn viên có kiến thức sâu rộng.",
+        Create_at = new DateTime(2025, 1, 5, 8, 10, 30)
+    },
+    new Review
+    {
+        Id = "REV005",
+        Tour_Id = "TOUR001",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Tuyệt vời cho gia đình có trẻ nhỏ. An toàn và vui vẻ suốt chuyến đi.",
+        Create_at = new DateTime(2024, 4, 18, 14, 35, 49)
+    },
+    new Review
+    {
+        Id = "REV006",
+        Tour_Id = "TOUR002",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Cảnh đẹp tuyệt vời! Hướng dẫn viên nhiệt tình và kiến thức.",
+        Create_at = new DateTime(2024, 9, 2, 9, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV007",
+        Tour_Id = "TOUR002",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Rất hài lòng với chuyến đi này. Mọi thứ đều hoàn hảo.",
+        Create_at = new DateTime(2025, 2, 15, 10, 30, 22)
+    },
+    new Review
+    {
+        Id = "REV008",
+        Tour_Id = "TOUR002",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém, không đáng tiền. Khách sạn bẩn, không như quảng cáo.",
+        Create_at = new DateTime(2024, 5, 20, 17, 0, 10)
+    },
+    new Review
+    {
+        Id = "REV009",
+        Tour_Id = "TOUR002",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Tour rất tốt! Sẽ giới thiệu cho bạn bè.",
+        Create_at = new DateTime(2024, 7, 10, 12, 50, 33)
+    },
+    new Review
+    {
+        Id = "REV010",
+        Tour_Id = "TOUR002",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Một kỳ nghỉ thư giãn và đáng nhớ. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2025, 4, 1, 11, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV011",
+        Tour_Id = "TOUR003",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm đáng tiền. Lịch trình hợp lý.",
+        Create_at = new DateTime(2024, 8, 15, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV012",
+        Tour_Id = "TOUR003",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Đồ ăn ngon. Mọi thứ đều hoàn hảo.",
+        Create_at = new DateTime(2025, 1, 1, 9, 0, 45)
+    },
+    new Review
+    {
+        Id = "REV013",
+        Tour_Id = "TOUR003",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Hướng dẫn viên thân thiện nhưng kiến thức hạn chế. Tour tạm được.",
+        Create_at = new DateTime(2024, 6, 20, 10, 0, 11)
+    },
+    new Review
+    {
+        Id = "REV014",
+        Tour_Id = "TOUR003",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Rất chuyên nghiệp từ khâu đặt tour đến kết thúc. Sẽ quay lại.",
+        Create_at = new DateTime(2025, 4, 20, 15, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV015",
+        Tour_Id = "TOUR003",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Cảnh đẹp, nhưng dịch vụ bình thường. Tour này phù hợp cho người không kén chọn.",
+        Create_at = new DateTime(2024, 10, 5, 13, 20, 18)
+    },
+    new Review
+    {
+        Id = "REV016",
+        Tour_Id = "TOUR004",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Một kỳ nghỉ thư giãn và đáng nhớ. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 9, 18, 8, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV017",
+        Tour_Id = "TOUR004",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Hướng dẫn viên nhiệt tình.",
+        Create_at = new DateTime(2025, 2, 1, 11, 40, 11)
+    },
+    new Review
+    {
+        Id = "REV018",
+        Tour_Id = "TOUR004",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Tour tệ quá! Trải nghiệm đáng quên.",
+        Create_at = new DateTime(2024, 6, 1, 16, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV019",
+        Tour_Id = "TOUR004",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Bãi biển sạch và đẹp. Hoạt động rất cuốn hút.",
+        Create_at = new DateTime(2024, 8, 5, 9, 10, 25)
+    },
+    new Review
+    {
+        Id = "REV020",
+        Tour_Id = "TOUR004",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Rất hài lòng với chuyến đi này. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 4, 5, 14, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV021",
+        Tour_Id = "TOUR005",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Sẽ giới thiệu cho bạn bè.",
+        Create_at = new DateTime(2024, 7, 1, 9, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV022",
+        Tour_Id = "TOUR005",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều hoàn hảo. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2025, 3, 15, 10, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV023",
+        Tour_Id = "TOUR005",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được. Không có gì đặc biệt.",
+        Create_at = new DateTime(2024, 11, 10, 15, 30, 50)
+    },
+    new Review
+    {
+        Id = "REV024",
+        Tour_Id = "TOUR005",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 1, 10, 8, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV025",
+        Tour_Id = "TOUR005",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Tuyệt vời cho gia đình có trẻ nhỏ. An toàn và vui vẻ suốt chuyến đi.",
+        Create_at = new DateTime(2024, 4, 22, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV026",
+        Tour_Id = "TOUR006",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Tour rất tốt! Cảnh đẹp tuyệt vời!",
+        Create_at = new DateTime(2024, 9, 5, 9, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV027",
+        Tour_Id = "TOUR006",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Khách sạn và dịch vụ đều xuất sắc. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 2, 20, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV028",
+        Tour_Id = "TOUR006",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Hướng dẫn viên thiếu chuyên nghiệp. Lịch trình tour quá gấp gáp, mệt mỏi.",
+        Create_at = new DateTime(2024, 5, 25, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV029",
+        Tour_Id = "TOUR006",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình tour rất hợp lý và thú vị. Đồ ăn ngon.",
+        Create_at = new DateTime(2024, 7, 15, 13, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV030",
+        Tour_Id = "TOUR006",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu tour này cho bạn bè và người thân. Mọi thứ đều vượt ngoài mong đợi.",
+        Create_at = new DateTime(2025, 4, 8, 10, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV031",
+        Tour_Id = "TOUR007",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên nhiệt tình. Trải nghiệm đáng tiền.",
+        Create_at = new DateTime(2024, 8, 20, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV032",
+        Tour_Id = "TOUR007",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Rất chuyên nghiệp từ khâu đặt tour đến kết thúc. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2025, 1, 6, 9, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV033",
+        Tour_Id = "TOUR007",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình. Khách sạn ở mức chấp nhận được.",
+        Create_at = new DateTime(2024, 6, 25, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV034",
+        Tour_Id = "TOUR007",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 4, 25, 15, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV035",
+        Tour_Id = "TOUR007",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2024, 10, 10, 13, 30, 22)
+    },
+    new Review
+    {
+        Id = "REV036",
+        Tour_Id = "TOUR008",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Cảnh đẹp như mơ, hướng dẫn viên nhiệt tình. Trải nghiệm tuyệt vời, rất đáng tiền!",
+        Create_at = new DateTime(2024, 9, 20, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV037",
+        Tour_Id = "TOUR008",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Khách sạn sạch sẽ, thoải mái, lịch trình hợp lý. Sẽ giới thiệu cho bạn bè.",
+        Create_at = new DateTime(2025, 2, 5, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV038",
+        Tour_Id = "TOUR008",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Đồ ăn dở, ít sự lựa chọn. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 3, 16, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV039",
+        Tour_Id = "TOUR008",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Hướng dẫn viên có kiến thức sâu rộng.",
+        Create_at = new DateTime(2024, 8, 8, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV040",
+        Tour_Id = "TOUR008",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Một kỳ nghỉ thư giãn và đáng nhớ. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2025, 4, 10, 14, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV041",
+        Tour_Id = "TOUR009",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Tuyệt vời cho gia đình có trẻ nhỏ. An toàn và vui vẻ suốt chuyến đi.",
+        Create_at = new DateTime(2024, 7, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV042",
+        Tour_Id = "TOUR009",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Bãi biển sạch và đẹp. Hoạt động rất cuốn hút.",
+        Create_at = new DateTime(2025, 3, 20, 10, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV043",
+        Tour_Id = "TOUR009",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Đồ ăn tạm ổn. Tour này phù hợp cho người không kén chọn.",
+        Create_at = new DateTime(2024, 11, 15, 15, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV044",
+        Tour_Id = "TOUR009",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Rất hài lòng với chuyến đi này. Mọi thứ đều hoàn hảo.",
+        Create_at = new DateTime(2025, 1, 12, 8, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV045",
+        Tour_Id = "TOUR009",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm đáng tiền. Lịch trình hợp lý.",
+        Create_at = new DateTime(2024, 4, 29, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV046",
+        Tour_Id = "TOUR010",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Cảnh đẹp tuyệt vời! Hướng dẫn viên nhiệt tình.",
+        Create_at = new DateTime(2024, 9, 10, 9, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV047",
+        Tour_Id = "TOUR010",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Khách sạn và dịch vụ đều xuất sắc. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2025, 2, 25, 11, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV048",
+        Tour_Id = "TOUR010",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Xe đưa đón không đúng giờ. Dịch vụ rất tệ.",
+        Create_at = new DateTime(2024, 6, 8, 16, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV049",
+        Tour_Id = "TOUR010",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình tour rất hợp lý và thú vị. Sẽ giới thiệu tour này cho bạn bè.",
+        Create_at = new DateTime(2024, 7, 18, 13, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV050",
+        Tour_Id = "TOUR010",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 15, 10, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV051",
+        Tour_Id = "TOUR011",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 8, 25, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV052",
+        Tour_Id = "TOUR011",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 1, 7, 9, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV053",
+        Tour_Id = "TOUR011",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour này không quá ấn tượng. Mọi thứ diễn ra khá bình thường.",
+        Create_at = new DateTime(2024, 6, 28, 10, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV054",
+        Tour_Id = "TOUR011",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 4, 28, 15, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV055",
+        Tour_Id = "TOUR011",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 10, 13, 13, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV056",
+        Tour_Id = "TOUR012",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 9, 22, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV057",
+        Tour_Id = "TOUR012",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 7, 11, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV058",
+        Tour_Id = "TOUR012",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Khách sạn bẩn, không như quảng cáo. Lịch trình dày đặc, mệt mỏi.",
+        Create_at = new DateTime(2024, 6, 5, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV059",
+        Tour_Id = "TOUR012",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 10, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV060",
+        Tour_Id = "TOUR012",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 13, 14, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV061",
+        Tour_Id = "TOUR013",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 8, 9, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV062",
+        Tour_Id = "TOUR013",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 10, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV063",
+        Tour_Id = "TOUR013",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Chỉ ở mức trung bình. Tour này phù hợp cho người không kén chọn.",
+        Create_at = new DateTime(2024, 11, 18, 15, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV064",
+        Tour_Id = "TOUR013",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 15, 8, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV065",
+        Tour_Id = "TOUR013",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 2, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV066",
+        Tour_Id = "TOUR014",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 9, 25, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV067",
+        Tour_Id = "TOUR014",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 10, 11, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV068",
+        Tour_Id = "TOUR014",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Trải nghiệm đáng quên. Giá quá đắt.",
+        Create_at = new DateTime(2024, 6, 10, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV069",
+        Tour_Id = "TOUR014",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 13, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV070",
+        Tour_Id = "TOUR014",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 18, 14, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV071",
+        Tour_Id = "TOUR015",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 11, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV072",
+        Tour_Id = "TOUR015",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 26, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV073",
+        Tour_Id = "TOUR015",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 21, 15, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV074",
+        Tour_Id = "TOUR015",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 18, 8, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV075",
+        Tour_Id = "TOUR015",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 5, 14, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV076",
+        Tour_Id = "TOUR016",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 9, 28, 8, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV077",
+        Tour_Id = "TOUR016",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 13, 11, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV078",
+        Tour_Id = "TOUR016",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Lịch trình dày đặc, mệt mỏi. Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 13, 16, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV079",
+        Tour_Id = "TOUR016",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 16, 9, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV080",
+        Tour_Id = "TOUR016",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 21, 14, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV081",
+        Tour_Id = "TOUR017",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 14, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV082",
+        Tour_Id = "TOUR017",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 29, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV083",
+        Tour_Id = "TOUR017",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Cảnh đẹp, nhưng dịch trình cần cải thiện.",
+        Create_at = new DateTime(2024, 11, 24, 16, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV084",
+        Tour_Id = "TOUR017",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 21, 8, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV085",
+        Tour_Id = "TOUR017",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 8, 14, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV086",
+        Tour_Id = "TOUR018",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 9, 30, 9, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV087",
+        Tour_Id = "TOUR018",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 15, 11, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV088",
+        Tour_Id = "TOUR018",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Điểm tham quan quá đông đúc. Trải nghiệm đáng quên.",
+        Create_at = new DateTime(2024, 6, 15, 16, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV089",
+        Tour_Id = "TOUR018",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 18, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV090",
+        Tour_Id = "TOUR018",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 23, 15, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV091",
+        Tour_Id = "TOUR019",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 17, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV092",
+        Tour_Id = "TOUR019",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 4, 1, 11, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV093",
+        Tour_Id = "TOUR019",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được. Không có gì đặc biệt.",
+        Create_at = new DateTime(2024, 11, 26, 16, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV094",
+        Tour_Id = "TOUR019",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 24, 8, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV095",
+        Tour_Id = "TOUR019",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 11, 14, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV096",
+        Tour_Id = "TOUR020",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 3, 9, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV097",
+        Tour_Id = "TOUR020",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 18, 11, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV098",
+        Tour_Id = "TOUR020",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Không có hoạt động nào thú vị. Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 18, 16, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV099",
+        Tour_Id = "TOUR020",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 21, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV100",
+        Tour_Id = "TOUR020",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 26, 15, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV101",
+        Tour_Id = "TOUR021",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 20, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV102",
+        Tour_Id = "TOUR021",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 1, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV103",
+        Tour_Id = "TOUR021",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Mọi thứ diễn ra khá bình thường.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV104",
+        Tour_Id = "TOUR021",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 27, 8, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV105",
+        Tour_Id = "TOUR021",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 15, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV106",
+        Tour_Id = "TOUR022",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 6, 9, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV107",
+        Tour_Id = "TOUR022",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 21, 11, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV108",
+        Tour_Id = "TOUR022",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Tour tệ quá! Trải nghiệm đáng quên.",
+        Create_at = new DateTime(2024, 6, 21, 16, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV109",
+        Tour_Id = "TOUR022",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 24, 9, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV110",
+        Tour_Id = "TOUR022",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 4, 29, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV111",
+        Tour_Id = "TOUR023",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 23, 9, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV112",
+        Tour_Id = "TOUR023",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 4, 10, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV113",
+        Tour_Id = "TOUR023",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được. Không có gì đặc biệt.",
+        Create_at = new DateTime(2024, 11, 8, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV114",
+        Tour_Id = "TOUR023",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV115",
+        Tour_Id = "TOUR023",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 18, 14, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV116",
+        Tour_Id = "TOUR024",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 9, 9, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV117",
+        Tour_Id = "TOUR024",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 24, 11, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV118",
+        Tour_Id = "TOUR024",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Giá quá đắt so với chất lượng nhận được. Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 24, 16, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV119",
+        Tour_Id = "TOUR024",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV120",
+        Tour_Id = "TOUR024",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 2, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV121",
+        Tour_Id = "TOUR025",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 26, 9, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV122",
+        Tour_Id = "TOUR025",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 7, 10, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV123",
+        Tour_Id = "TOUR025",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour này không quá ấn tượng.",
+        Create_at = new DateTime(2024, 11, 11, 15, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV124",
+        Tour_Id = "TOUR025",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 2, 2, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV125",
+        Tour_Id = "TOUR025",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 21, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV126",
+        Tour_Id = "TOUR026",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV127",
+        Tour_Id = "TOUR026",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 27, 11, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV128",
+        Tour_Id = "TOUR026",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Hướng dẫn viên thiếu chuyên nghiệp. Trải nghiệm đáng quên.",
+        Create_at = new DateTime(2024, 6, 27, 16, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV129",
+        Tour_Id = "TOUR026",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV130",
+        Tour_Id = "TOUR026",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 5, 15, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV131",
+        Tour_Id = "TOUR027",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 29, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV132",
+        Tour_Id = "TOUR027",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 10, 11, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV133",
+        Tour_Id = "TOUR027",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 14, 15, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV134",
+        Tour_Id = "TOUR027",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 2, 5, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV135",
+        Tour_Id = "TOUR027",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 24, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV136",
+        Tour_Id = "TOUR028",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 15, 9, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV137",
+        Tour_Id = "TOUR028",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 3, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV138",
+        Tour_Id = "TOUR028",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Dịch vụ kém, không đáng tiền. Trải nghiệm đáng quên.",
+        Create_at = new DateTime(2024, 6, 30, 16, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV139",
+        Tour_Id = "TOUR028",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 31, 9, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV140",
+        Tour_Id = "TOUR028",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 8, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV141",
+        Tour_Id = "TOUR029",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 2, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV142",
+        Tour_Id = "TOUR029",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 21, 10, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV143",
+        Tour_Id = "TOUR029",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Cảnh đẹp, nhưng dịch vụ bình thường.",
+        Create_at = new DateTime(2024, 11, 3, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV144",
+        Tour_Id = "TOUR029",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 29, 8, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV145",
+        Tour_Id = "TOUR029",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 13, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV146",
+        Tour_Id = "TOUR030",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 1, 9, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV147",
+        Tour_Id = "TOUR030",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 2, 26, 11, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV148",
+        Tour_Id = "TOUR030",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Tour tệ quá!",
+        Create_at = new DateTime(2024, 6, 26, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV149",
+        Tour_Id = "TOUR030",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 29, 9, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV150",
+        Tour_Id = "TOUR030",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 4, 14, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV151",
+        Tour_Id = "TOUR031",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV152",
+        Tour_Id = "TOUR031",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV153",
+        Tour_Id = "TOUR031",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Khách sạn ở mức chấp nhận được. Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 6, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV154",
+        Tour_Id = "TOUR031",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV155",
+        Tour_Id = "TOUR031",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV156",
+        Tour_Id = "TOUR032",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 4, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV157",
+        Tour_Id = "TOUR032",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 1, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV158",
+        Tour_Id = "TOUR032",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Dịch vụ kém.",
+        Create_at = new DateTime(2024, 6, 23, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV159",
+        Tour_Id = "TOUR032",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 26, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV160",
+        Tour_Id = "TOUR032",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 15, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV161",
+        Tour_Id = "TOUR033",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 25, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV162",
+        Tour_Id = "TOUR033",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 6, 11, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV163",
+        Tour_Id = "TOUR033",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 9, 15, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV164",
+        Tour_Id = "TOUR033",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 2, 1, 8, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV165",
+        Tour_Id = "TOUR033",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 20, 14, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV166",
+        Tour_Id = "TOUR034",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 7, 9, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV167",
+        Tour_Id = "TOUR034",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 4, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV168",
+        Tour_Id = "TOUR034",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Tour tệ quá!",
+        Create_at = new DateTime(2024, 6, 28, 16, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV169",
+        Tour_Id = "TOUR034",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV170",
+        Tour_Id = "TOUR034",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV171",
+        Tour_Id = "TOUR035",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 1, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV172",
+        Tour_Id = "TOUR035",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 19, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV173",
+        Tour_Id = "TOUR035",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Đồ ăn tạm ổn.",
+        Create_at = new DateTime(2024, 11, 1, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV174",
+        Tour_Id = "TOUR035",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 28, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV175",
+        Tour_Id = "TOUR035",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 10, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV176",
+        Tour_Id = "TOUR036",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 10, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV177",
+        Tour_Id = "TOUR036",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 6, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV178",
+        Tour_Id = "TOUR036",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Điểm tham quan quá đông đúc.",
+        Create_at = new DateTime(2024, 6, 29, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV179",
+        Tour_Id = "TOUR036",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 31, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV180",
+        Tour_Id = "TOUR036",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 8, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV181",
+        Tour_Id = "TOUR037",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV182",
+        Tour_Id = "TOUR037",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV183",
+        Tour_Id = "TOUR037",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV184",
+        Tour_Id = "TOUR037",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV185",
+        Tour_Id = "TOUR037",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV186",
+        Tour_Id = "TOUR038",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV187",
+        Tour_Id = "TOUR038",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV188",
+        Tour_Id = "TOUR038",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV189",
+        Tour_Id = "TOUR038",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV190",
+        Tour_Id = "TOUR038",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV191",
+        Tour_Id = "TOUR039",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV192",
+        Tour_Id = "TOUR039",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV193",
+        Tour_Id = "TOUR039",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV194",
+        Tour_Id = "TOUR039",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV195",
+        Tour_Id = "TOUR039",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV196",
+        Tour_Id = "TOUR040",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 9, 9, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV197",
+        Tour_Id = "TOUR040",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 6, 11, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV198",
+        Tour_Id = "TOUR040",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 29, 16, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV199",
+        Tour_Id = "TOUR040",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 31, 9, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV200",
+        Tour_Id = "TOUR040",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 8, 14, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV201",
+        Tour_Id = "TOUR041",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 7, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV202",
+        Tour_Id = "TOUR041",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 26, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV203",
+        Tour_Id = "TOUR041",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được. Không có gì đặc biệt.",
+        Create_at = new DateTime(2024, 11, 8, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV204",
+        Tour_Id = "TOUR041",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 2, 1, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV205",
+        Tour_Id = "TOUR041",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 13, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV206",
+        Tour_Id = "TOUR042",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 6, 9, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV207",
+        Tour_Id = "TOUR042",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 3, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV208",
+        Tour_Id = "TOUR042",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Trải nghiệm đáng quên.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV209",
+        Tour_Id = "TOUR042",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 31, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV210",
+        Tour_Id = "TOUR042",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV211",
+        Tour_Id = "TOUR043",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV212",
+        Tour_Id = "TOUR043",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 11, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV213",
+        Tour_Id = "TOUR043",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour này không quá ấn tượng.",
+        Create_at = new DateTime(2024, 11, 7, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV214",
+        Tour_Id = "TOUR043",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV215",
+        Tour_Id = "TOUR043",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV216",
+        Tour_Id = "TOUR044",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 10, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV217",
+        Tour_Id = "TOUR044",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 7, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV218",
+        Tour_Id = "TOUR044",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 29, 16, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV219",
+        Tour_Id = "TOUR044",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 31, 9, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV220",
+        Tour_Id = "TOUR044",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 8, 14, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV221",
+        Tour_Id = "TOUR045",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 8, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV222",
+        Tour_Id = "TOUR045",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 27, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV223",
+        Tour_Id = "TOUR045",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Đồ ăn tạm ổn.",
+        Create_at = new DateTime(2024, 11, 9, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV224",
+        Tour_Id = "TOUR045",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 2, 2, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV225",
+        Tour_Id = "TOUR045",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 14, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV226",
+        Tour_Id = "TOUR046",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 11, 9, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV227",
+        Tour_Id = "TOUR046",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV228",
+        Tour_Id = "TOUR046",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Không có hoạt động nào thú vị.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV229",
+        Tour_Id = "TOUR046",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV230",
+        Tour_Id = "TOUR046",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV231",
+        Tour_Id = "TOUR047",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV232",
+        Tour_Id = "TOUR047",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV233",
+        Tour_Id = "TOUR047",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV234",
+        Tour_Id = "TOUR047",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV235",
+        Tour_Id = "TOUR047",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV236",
+        Tour_Id = "TOUR048",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV237",
+        Tour_Id = "TOUR048",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV238",
+        Tour_Id = "TOUR048",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV239",
+        Tour_Id = "TOUR048",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV240",
+        Tour_Id = "TOUR048",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV241",
+        Tour_Id = "TOUR049",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV242",
+        Tour_Id = "TOUR049",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV243",
+        Tour_Id = "TOUR049",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV244",
+        Tour_Id = "TOUR049",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV245",
+        Tour_Id = "TOUR049",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV246",
+        Tour_Id = "TOUR050",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV247",
+        Tour_Id = "TOUR050",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV248",
+        Tour_Id = "TOUR050",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Dịch vụ rất tệ.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV249",
+        Tour_Id = "TOUR050",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV250",
+        Tour_Id = "TOUR050",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV251",
+        Tour_Id = "TOUR051",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV252",
+        Tour_Id = "TOUR051",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV253",
+        Tour_Id = "TOUR051",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV254",
+        Tour_Id = "TOUR051",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV255",
+        Tour_Id = "TOUR051",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV256",
+        Tour_Id = "TOUR052",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV257",
+        Tour_Id = "TOUR052",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV258",
+        Tour_Id = "TOUR052",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV259",
+        Tour_Id = "TOUR052",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV260",
+        Tour_Id = "TOUR052",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV261",
+        Tour_Id = "TOUR053",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV262",
+        Tour_Id = "TOUR053",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV263",
+        Tour_Id = "TOUR053",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV264",
+        Tour_Id = "TOUR053",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV265",
+        Tour_Id = "TOUR053",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV266",
+        Tour_Id = "TOUR054",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV267",
+        Tour_Id = "TOUR054",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV268",
+        Tour_Id = "TOUR054",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV269",
+        Tour_Id = "TOUR054",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV270",
+        Tour_Id = "TOUR054",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV271",
+        Tour_Id = "TOUR055",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV272",
+        Tour_Id = "TOUR055",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV273",
+        Tour_Id = "TOUR055",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV274",
+        Tour_Id = "TOUR055",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV275",
+        Tour_Id = "TOUR055",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV276",
+        Tour_Id = "TOUR056",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV277",
+        Tour_Id = "TOUR056",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV278",
+        Tour_Id = "TOUR056",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV279",
+        Tour_Id = "TOUR056",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV280",
+        Tour_Id = "TOUR056",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV281",
+        Tour_Id = "TOUR057",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV282",
+        Tour_Id = "TOUR057",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV283",
+        Tour_Id = "TOUR057",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV284",
+        Tour_Id = "TOUR057",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV285",
+        Tour_Id = "TOUR057",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV286",
+        Tour_Id = "TOUR058",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV287",
+        Tour_Id = "TOUR058",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV288",
+        Tour_Id = "TOUR058",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV289",
+        Tour_Id = "TOUR058",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV290",
+        Tour_Id = "TOUR058",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV291",
+        Tour_Id = "TOUR059",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV292",
+        Tour_Id = "TOUR059",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV293",
+        Tour_Id = "TOUR059",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV294",
+        Tour_Id = "TOUR059",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV295",
+        Tour_Id = "TOUR059",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV296",
+        Tour_Id = "TOUR060",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV297",
+        Tour_Id = "TOUR060",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV298",
+        Tour_Id = "TOUR060",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV299",
+        Tour_Id = "TOUR060",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV300",
+        Tour_Id = "TOUR060",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV301",
+        Tour_Id = "TOUR061",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV302",
+        Tour_Id = "TOUR061",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV303",
+        Tour_Id = "TOUR061",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV304",
+        Tour_Id = "TOUR061",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV305",
+        Tour_Id = "TOUR061",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV306",
+        Tour_Id = "TOUR062",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV307",
+        Tour_Id = "TOUR062",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV308",
+        Tour_Id = "TOUR062",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV309",
+        Tour_Id = "TOUR062",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV310",
+        Tour_Id = "TOUR062",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV311",
+        Tour_Id = "TOUR063",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV312",
+        Tour_Id = "TOUR063",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV313",
+        Tour_Id = "TOUR063",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV314",
+        Tour_Id = "TOUR063",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV315",
+        Tour_Id = "TOUR063",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV316",
+        Tour_Id = "TOUR064",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV317",
+        Tour_Id = "TOUR064",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV318",
+        Tour_Id = "TOUR064",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV319",
+        Tour_Id = "TOUR064",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV320",
+        Tour_Id = "TOUR064",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV321",
+        Tour_Id = "TOUR065",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV322",
+        Tour_Id = "TOUR065",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV323",
+        Tour_Id = "TOUR065",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV324",
+        Tour_Id = "TOUR065",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV325",
+        Tour_Id = "TOUR065",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV326",
+        Tour_Id = "TOUR066",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV327",
+        Tour_Id = "TOUR066",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV328",
+        Tour_Id = "TOUR066",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV329",
+        Tour_Id = "TOUR066",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV330",
+        Tour_Id = "TOUR066",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV331",
+        Tour_Id = "TOUR067",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV332",
+        Tour_Id = "TOUR067",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV333",
+        Tour_Id = "TOUR067",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV334",
+        Tour_Id = "TOUR067",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV335",
+        Tour_Id = "TOUR067",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV336",
+        Tour_Id = "TOUR068",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV337",
+        Tour_Id = "TOUR068",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV338",
+        Tour_Id = "TOUR068",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV339",
+        Tour_Id = "TOUR068",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV340",
+        Tour_Id = "TOUR068",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV341",
+        Tour_Id = "TOUR069",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV342",
+        Tour_Id = "TOUR069",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV343",
+        Tour_Id = "TOUR069",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV344",
+        Tour_Id = "TOUR069",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV345",
+        Tour_Id = "TOUR069",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV346",
+        Tour_Id = "TOUR070",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV347",
+        Tour_Id = "TOUR070",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV348",
+        Tour_Id = "TOUR070",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV349",
+        Tour_Id = "TOUR070",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV350",
+        Tour_Id = "TOUR070",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV351",
+        Tour_Id = "TOUR071",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV352",
+        Tour_Id = "TOUR071",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV353",
+        Tour_Id = "TOUR071",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV354",
+        Tour_Id = "TOUR071",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV355",
+        Tour_Id = "TOUR071",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV356",
+        Tour_Id = "TOUR072",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV357",
+        Tour_Id = "TOUR072",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV358",
+        Tour_Id = "TOUR072",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV359",
+        Tour_Id = "TOUR072",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV360",
+        Tour_Id = "TOUR072",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV361",
+        Tour_Id = "TOUR073",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV362",
+        Tour_Id = "TOUR073",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV363",
+        Tour_Id = "TOUR073",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV364",
+        Tour_Id = "TOUR073",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV365",
+        Tour_Id = "TOUR073",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV366",
+        Tour_Id = "TOUR074",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV367",
+        Tour_Id = "TOUR074",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV368",
+        Tour_Id = "TOUR074",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV369",
+        Tour_Id = "TOUR074",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV370",
+        Tour_Id = "TOUR074",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV371",
+        Tour_Id = "TOUR075",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV372",
+        Tour_Id = "TOUR075",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV373",
+        Tour_Id = "TOUR075",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV374",
+        Tour_Id = "TOUR075",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV375",
+        Tour_Id = "TOUR075",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV376",
+        Tour_Id = "TOUR076",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV377",
+        Tour_Id = "TOUR076",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV378",
+        Tour_Id = "TOUR076",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV379",
+        Tour_Id = "TOUR076",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV380",
+        Tour_Id = "TOUR076",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV381",
+        Tour_Id = "TOUR077",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV382",
+        Tour_Id = "TOUR077",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV383",
+        Tour_Id = "TOUR077",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV384",
+        Tour_Id = "TOUR077",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV385",
+        Tour_Id = "TOUR077",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV386",
+        Tour_Id = "TOUR078",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV387",
+        Tour_Id = "TOUR078",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV388",
+        Tour_Id = "TOUR078",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV389",
+        Tour_Id = "TOUR078",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV390",
+        Tour_Id = "TOUR078",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV391",
+        Tour_Id = "TOUR079",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV392",
+        Tour_Id = "TOUR079",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV393",
+        Tour_Id = "TOUR079",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV394",
+        Tour_Id = "TOUR079",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV395",
+        Tour_Id = "TOUR079",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV396",
+        Tour_Id = "TOUR080",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV397",
+        Tour_Id = "TOUR080",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV398",
+        Tour_Id = "TOUR080",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV399",
+        Tour_Id = "TOUR080",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV400",
+        Tour_Id = "TOUR080",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV401",
+        Tour_Id = "TOUR081",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV402",
+        Tour_Id = "TOUR081",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV403",
+        Tour_Id = "TOUR081",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV404",
+        Tour_Id = "TOUR081",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV405",
+        Tour_Id = "TOUR081",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV406",
+        Tour_Id = "TOUR082",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV407",
+        Tour_Id = "TOUR082",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV408",
+        Tour_Id = "TOUR082",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV409",
+        Tour_Id = "TOUR082",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV410",
+        Tour_Id = "TOUR082",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV411",
+        Tour_Id = "TOUR083",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV412",
+        Tour_Id = "TOUR083",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV413",
+        Tour_Id = "TOUR083",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV414",
+        Tour_Id = "TOUR083",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV415",
+        Tour_Id = "TOUR083",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV416",
+        Tour_Id = "TOUR084",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV417",
+        Tour_Id = "TOUR084",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV418",
+        Tour_Id = "TOUR084",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV419",
+        Tour_Id = "TOUR084",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV420",
+        Tour_Id = "TOUR084",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV421",
+        Tour_Id = "TOUR085",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV422",
+        Tour_Id = "TOUR085",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV423",
+        Tour_Id = "TOUR085",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV424",
+        Tour_Id = "TOUR085",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV425",
+        Tour_Id = "TOUR085",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV426",
+        Tour_Id = "TOUR086",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV427",
+        Tour_Id = "TOUR086",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV428",
+        Tour_Id = "TOUR086",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV429",
+        Tour_Id = "TOUR086",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV430",
+        Tour_Id = "TOUR086",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV431",
+        Tour_Id = "TOUR087",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV432",
+        Tour_Id = "TOUR087",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV433",
+        Tour_Id = "TOUR087",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV434",
+        Tour_Id = "TOUR087",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV435",
+        Tour_Id = "TOUR087",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV436",
+        Tour_Id = "TOUR088",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV437",
+        Tour_Id = "TOUR088",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV438",
+        Tour_Id = "TOUR088",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV439",
+        Tour_Id = "TOUR088",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV440",
+        Tour_Id = "TOUR088",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV441",
+        Tour_Id = "TOUR089",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV442",
+        Tour_Id = "TOUR089",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV443",
+        Tour_Id = "TOUR089",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV444",
+        Tour_Id = "TOUR089",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV445",
+        Tour_Id = "TOUR089",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV446",
+        Tour_Id = "TOUR090",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV447",
+        Tour_Id = "TOUR090",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV448",
+        Tour_Id = "TOUR090",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV449",
+        Tour_Id = "TOUR090",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV450",
+        Tour_Id = "TOUR090",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV451",
+        Tour_Id = "TOUR091",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV452",
+        Tour_Id = "TOUR091",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV453",
+        Tour_Id = "TOUR091",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV454",
+        Tour_Id = "TOUR091",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV455",
+        Tour_Id = "TOUR091",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV456",
+        Tour_Id = "TOUR092",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV457",
+        Tour_Id = "TOUR092",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV458",
+        Tour_Id = "TOUR092",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV459",
+        Tour_Id = "TOUR092",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV460",
+        Tour_Id = "TOUR092",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV461",
+        Tour_Id = "TOUR093",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV462",
+        Tour_Id = "TOUR093",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV463",
+        Tour_Id = "TOUR093",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV464",
+        Tour_Id = "TOUR093",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV465",
+        Tour_Id = "TOUR093",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV466",
+        Tour_Id = "TOUR094",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV467",
+        Tour_Id = "TOUR094",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV468",
+        Tour_Id = "TOUR094",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV469",
+        Tour_Id = "TOUR094",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV470",
+        Tour_Id = "TOUR094",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV471",
+        Tour_Id = "TOUR095",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 4, 10, 5, 0)
+    },
+    new Review
+    {
+        Id = "REV472",
+        Tour_Id = "TOUR095",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 23, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV473",
+        Tour_Id = "TOUR095",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được.",
+        Create_at = new DateTime(2024, 11, 5, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV474",
+        Tour_Id = "TOUR095",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV475",
+        Tour_Id = "TOUR095",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 16, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV476",
+        Tour_Id = "TOUR096",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 5, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV477",
+        Tour_Id = "TOUR096",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 2, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV478",
+        Tour_Id = "TOUR096",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém. Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 25, 16, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV479",
+        Tour_Id = "TOUR096",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 27, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV480",
+        Tour_Id = "TOUR096",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 7, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV481",
+        Tour_Id = "TOUR097",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 3, 10, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV482",
+        Tour_Id = "TOUR097",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 22, 11, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV483",
+        Tour_Id = "TOUR097",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, nhưng cần cải thiện lịch trình.",
+        Create_at = new DateTime(2024, 11, 4, 15, 35, 0)
+    },
+    new Review
+    {
+        Id = "REV484",
+        Tour_Id = "TOUR097",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 30, 8, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV485",
+        Tour_Id = "TOUR097",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 19, 14, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV486",
+        Tour_Id = "TOUR098",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 8, 9, 25, 0)
+    },
+    new Review
+    {
+        Id = "REV487",
+        Tour_Id = "TOUR098",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 5, 11, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV488",
+        Tour_Id = "TOUR098",
+        Customer_Id = "CUS001",
+        Rating = 2,
+        Comment = @"Dịch vụ rất kém.",
+        Create_at = new DateTime(2024, 6, 28, 16, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV489",
+        Tour_Id = "TOUR098",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 8, 30, 9, 50, 0)
+    },
+    new Review
+    {
+        Id = "REV490",
+        Tour_Id = "TOUR098",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 9, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV491",
+        Tour_Id = "TOUR099",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên có kiến thức sâu rộng. Tuyệt vời cho gia đình có trẻ nhỏ.",
+        Create_at = new DateTime(2024, 7, 5, 10, 0, 0)
+    },
+    new Review
+    {
+        Id = "REV492",
+        Tour_Id = "TOUR099",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"An toàn và vui vẻ suốt chuyến đi. Bãi biển sạch và đẹp.",
+        Create_at = new DateTime(2025, 3, 24, 10, 55, 0)
+    },
+    new Review
+    {
+        Id = "REV493",
+        Tour_Id = "TOUR099",
+        Customer_Id = "CUS001",
+        Rating = 3,
+        Comment = @"Tour tạm được, không có gì nổi bật.",
+        Create_at = new DateTime(2024, 11, 7, 15, 30, 0)
+    },
+    new Review
+    {
+        Id = "REV494",
+        Tour_Id = "TOUR099",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hoạt động rất cuốn hút. Rất hài lòng với chuyến đi này.",
+        Create_at = new DateTime(2025, 1, 31, 8, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV495",
+        Tour_Id = "TOUR099",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Trải nghiệm tuyệt vời, rất đáng tiền! Cảnh đẹp như mơ.",
+        Create_at = new DateTime(2024, 5, 12, 14, 10, 0)
+    },
+    new Review
+    {
+        Id = "REV496",
+        Tour_Id = "TOUR100",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Hướng dẫn viên nhiệt tình. Khách sạn sạch sẽ, thoải mái.",
+        Create_at = new DateTime(2024, 10, 12, 9, 20, 0)
+    },
+    new Review
+    {
+        Id = "REV497",
+        Tour_Id = "TOUR100",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Lịch trình hợp lý. Đồ ăn ngon.",
+        Create_at = new DateTime(2025, 3, 8, 11, 45, 0)
+    },
+    new Review
+    {
+        Id = "REV498",
+        Tour_Id = "TOUR100",
+        Customer_Id = "CUS001",
+        Rating = 1,
+        Comment = @"Giá quá đắt so với chất lượng.",
+        Create_at = new DateTime(2024, 6, 30, 16, 15, 0)
+    },
+    new Review
+    {
+        Id = "REV499",
+        Tour_Id = "TOUR100",
+        Customer_Id = "CUS001",
+        Rating = 5,
+        Comment = @"Sẽ giới thiệu cho bạn bè. Rất chuyên nghiệp từ khâu đặt tour đến kết thúc.",
+        Create_at = new DateTime(2024, 9, 2, 9, 40, 0)
+    },
+    new Review
+    {
+        Id = "REV500",
+        Tour_Id = "TOUR100",
+        Customer_Id = "CUS001",
+        Rating = 4,
+        Comment = @"Mọi thứ đều vượt ngoài mong đợi. Một kỳ nghỉ thư giãn và đáng nhớ.",
+        Create_at = new DateTime(2025, 5, 6, 14, 0, 0)
+    }
+);

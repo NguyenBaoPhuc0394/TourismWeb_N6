@@ -1,0 +1,102 @@
+modelBuilder.Entity<Location>().HasData(
+    new Location
+    {
+        Id = "LOC001",
+        Name = "Vịnh Hạ Long"
+    },
+    new Location
+    {
+        Id = "LOC002",
+        Name = "Phố cổ Hội An"
+    },
+    new Location
+    {
+        Id = "LOC003",
+        Name = "Cố đô Huế"
+    },
+    new Location
+    {
+        Id = "LOC004",
+        Name = "Phong Nha-Kẻ Bàng"
+    },
+    new Location
+    {
+        Id = "LOC005",
+        Name = "Thánh địa Mỹ Sơn"
+    },
+    new Location
+    {
+        Id = "LOC006",
+        Name = "Khu di tích Hoàng thành Thăng Long"
+    },
+    new Location
+    {
+        Id = "LOC007",
+        Name = "Thành nhà Hồ"
+    },
+    new Location
+    {
+        Id = "LOC008",
+        Name = "Quần thể danh thắng Tràng An"
+    },
+    new Location
+    {
+        Id = "LOC009",
+        Name = "Hà Nội"
+    },
+    new Location
+    {
+        Id = "LOC010",
+        Name = "TP. Hồ Chí Minh"
+    },
+    new Location
+    {
+        Id = "LOC011",
+        Name = "Đà Nẵng"
+    },
+    new Location
+    {
+        Id = "LOC012",
+        Name = "Nha Trang"
+    },
+    new Location
+    {
+        Id = "LOC013",
+        Name = "Phú Quốc"
+    },
+    new Location
+    {
+        Id = "LOC014",
+        Name = "Đà Lạt"
+    },
+    new Location
+    {
+        Id = "LOC015",
+        Name = "Sa Pa"
+    },
+    new Location
+    {
+        Id = "LOC016",
+        Name = "Mũi Né"
+    },
+    new Location
+    {
+        Id = "LOC017",
+        Name = "Cần Thơ"
+    },
+    new Location
+    {
+        Id = "LOC018",
+        Name = "Buôn Ma Thuột"
+    },
+    new Location
+    {
+        Id = "LOC019",
+        Name = "Vũng Tàu"
+    },
+    new Location
+    {
+        Id = "LOC020",
+        Name = "Côn Đảo"
+    }
+);

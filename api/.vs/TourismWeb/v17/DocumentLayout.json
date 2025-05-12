@@ -1,30 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\tourismweb\\tourismweb\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\repositories\\implementations\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\repositories\\implementations\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\dtos\\payment\\paymentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\dtos\\payment\\paymentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\tourcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\tourismweb\\tourismweb\\dtos\\booking\\bookingupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\dtos\\booking\\bookingupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\services\\implementations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\tourismweb\\tourismweb\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\tourismweb\\tourismweb\\services\\implementations\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\services\\implementations\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\tourismweb\\tourismweb\\dtos\\booking\\bookingdatatabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\dtos\\booking\\bookingdatatabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\repositories\\implementations\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\repositories\\implementations\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\tourismweb\\tourismweb\\repositories\\implementations\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\repositories\\implementations\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|c:\\users\\giahu\\desktop\\tailieu\\hk2-2425\\net\\ck\\web\\api\\tourismweb\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F560F65C-BF5A-4134-AE6E-BBC8760DDECF}|TourismWeb\\TourismWeb.csproj|solutionrelative:tourismweb\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +91,235 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookingUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\DTOs\\Booking\\BookingUpdateDTO.cs",
-              "RelativeDocumentMoniker": "TourismWeb\\DTOs\\Booking\\BookingUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\DTOs\\Booking\\BookingUpdateDTO.cs",
-              "RelativeToolTip": "TourismWeb\\DTOs\\Booking\\BookingUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Repositories\\Implementations\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Repositories\\Implementations\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Repositories\\Implementations\\PaymentRepository.cs",
+              "RelativeToolTip": "TourismWeb\\Repositories\\Implementations\\PaymentRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:20:53.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Repositories\\Implementations\\BookingRepository.cs",
-              "RelativeDocumentMoniker": "TourismWeb\\Repositories\\Implementations\\BookingRepository.cs",
-              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Repositories\\Implementations\\BookingRepository.cs",
-              "RelativeToolTip": "TourismWeb\\Repositories\\Implementations\\BookingRepository.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAIwJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:19:56.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Services\\Interfaces\\IBookingService.cs",
-              "RelativeDocumentMoniker": "TourismWeb\\Services\\Interfaces\\IBookingService.cs",
-              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Services\\Interfaces\\IBookingService.cs",
-              "RelativeToolTip": "TourismWeb\\Services\\Interfaces\\IBookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:06:37.352Z",
+              "WhenOpened": "2025-05-12T05:41:11.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Services\\Implementations\\BookingService.cs",
-              "RelativeDocumentMoniker": "TourismWeb\\Services\\Implementations\\BookingService.cs",
-              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Services\\Implementations\\BookingService.cs",
-              "RelativeToolTip": "TourismWeb\\Services\\Implementations\\BookingService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowFMAAABFAAAAAAAAAA==",
+              "Title": "PaymentCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\DTOs\\Payment\\PaymentCreateDTO.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\DTOs\\Payment\\PaymentCreateDTO.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\DTOs\\Payment\\PaymentCreateDTO.cs",
+              "RelativeToolTip": "TourismWeb\\DTOs\\Payment\\PaymentCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:06:35.882Z",
+              "WhenOpened": "2025-05-12T05:40:41.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TourController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\TourController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\TourController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\TourController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\TourController.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwM0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:27:51.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:24:17.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookingDataTableDTO.cs",
-              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\DTOs\\Booking\\BookingDataTableDTO.cs",
-              "RelativeDocumentMoniker": "TourismWeb\\DTOs\\Booking\\BookingDataTableDTO.cs",
-              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\DTOs\\Booking\\BookingDataTableDTO.cs",
-              "RelativeToolTip": "TourismWeb\\DTOs\\Booking\\BookingDataTableDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:03:35.223Z",
+              "WhenOpened": "2025-05-12T05:23:26.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "TourismWeb\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAswJAAAAAQAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAiwE0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T14:01:50.958Z",
+              "WhenOpened": "2025-05-11T21:19:17.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "RelativeToolTip": "TourismWeb\\Repositories\\Interfaces\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:43:01.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:22:48.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAADwv6gAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:20:36.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowG0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:16:04.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIAwwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:30:00.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:15:04.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Program.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Program.cs",
+              "RelativeToolTip": "TourismWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:11:34.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\nlog.config",
+              "RelativeDocumentMoniker": "TourismWeb\\nlog.config",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\nlog.config",
+              "RelativeToolTip": "TourismWeb\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-12T05:10:51.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Services\\Implementations\\AccountService.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Services\\Implementations\\AccountService.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Services\\Implementations\\AccountService.cs",
+              "RelativeToolTip": "TourismWeb\\Services\\Implementations\\AccountService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:40:16.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "TourismWeb\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:23:40.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "TourismWeb\\Services\\Interfaces\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T21:40:03.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Repositories\\Implementations\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "TourismWeb\\Repositories\\Implementations\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\api\\TourismWeb\\Repositories\\Implementations\\AccountRepository.cs",
+              "RelativeToolTip": "TourismWeb\\Repositories\\Implementations\\AccountRepository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T23:33:03.823Z",
               "EditorCaption": ""
             }
           ]

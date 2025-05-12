@@ -110,7 +110,7 @@
   },
   {
     "ContainingType": "TourismWeb.Controllers.AccountController",
-    "Method": "loginAdmin",
+    "Method": "LoginAdmin",
     "RelativePath": "api/Account/login-admin",
     "HttpMethod": "POST",
     "IsController": true,
