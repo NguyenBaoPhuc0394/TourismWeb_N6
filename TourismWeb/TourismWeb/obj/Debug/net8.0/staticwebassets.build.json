@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Xd/aoIsPE/mk+nrAX1CyjXZs+0jc433KO2k0cmJYtms=",
+  "Source": "TourismWeb",
+  "BasePath": "_content/TourismWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TourismWeb\\wwwroot",
+      "Source": "TourismWeb",
+      "ContentRoot": "C:\\Users\\PHUC\\Desktop\\linhtinh\\Tours\\TourismWeb\\TourismWeb\\wwwroot\\",
+      "BasePath": "_content/TourismWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

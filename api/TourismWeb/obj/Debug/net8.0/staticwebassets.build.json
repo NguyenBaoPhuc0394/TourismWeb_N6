@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "Ht/79wE/WjbW/7TWpaVU2Za8MfOpL6zOIdo18YXTPQU=",
+  "Source": "TourismWeb",
+  "BasePath": "_content/TourismWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TourismWeb\\wwwroot",
+      "Source": "TourismWeb",
+      "ContentRoot": "C:\\Users\\giahu\\Desktop\\tailieu\\hk2-2425\\net\\CK\\Web\\TourismWeb\\TourismWeb\\wwwroot\\",
+      "BasePath": "_content/TourismWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "Id": "CATE001",
+        "Name": "Du lịch biển",
+        "Description": "Khám phá các bãi biển tuyệt đẹp, tận hưởng nắng vàng và sóng biển, tham gia thể thao dưới nước. Phù hợp cho gia đình, cặp đôi hoặc những ai muốn thư giãn."
+    },
+    {
+        "Id": "CATE002",
+        "Name": "Du lịch văn hóa",
+        "Description": "Trải nghiệm di sản văn hóa phong phú, tham quan đền chùa, bảo tàng, tìm hiểu phong tục tập quán địa phương. Lý tưởng cho người yêu lịch sử và nghệ thuật."
+    },
+    {
+        "Id": "CATE003",
+        "Name": "Du lịch phiêu lưu",
+        "Description": "Dành cho những người thích thử thách và khám phá. Tham gia các hoạt động mạo hiểm như leo núi, trekking, chèo thuyền kayak, zipline trong môi trường tự nhiên."
+    },
+    {
+        "Id": "CATE004",
+        "Name": "Du lịch nghỉ dưỡng",
+        "Description": "Thoát khỏi cuộc sống bộn bề, thư giãn tại các resort, spa sang trọng. Tận hưởng dịch vụ cao cấp và không gian yên bình để phục hồi năng lượng, tìm lại cân bằng."
+    },
+    {
+        "Id": "CATE005",
+        "Name": "Du lịch ẩm thực",
+        "Description": "Khám phá hương vị độc đáo của các vùng miền. Thưởng thức đặc sản địa phương, học cách chế biến món ăn truyền thống, trải nghiệm văn hóa ẩm thực sâu sắc."
+    },
+    {
+        "Id": "CATE006",
+        "Name": "Du lịch sinh thái",
+        "Description": "Hòa mình vào thiên nhiên hoang sơ. Tham quan rừng quốc gia, công viên bảo tồn, tìm hiểu hệ động thực vật đa dạng và tham gia các hoạt động thân thiện môi trường."
+    },
+    {
+        "Id": "CATE007",
+        "Name": "Du lịch tâm linh",
+        "Description": "Tìm hiểu về tín ngưỡng và tôn giáo. Viếng thăm các ngôi chùa, nhà thờ, thánh địa linh thiêng, tham gia các nghi lễ truyền thống để tìm kiếm sự bình an trong tâm hồn."
+    },
+    {
+        "Id": "CATE008",
+        "Name": "Du lịch thể thao",
+        "Description": "Kết hợp du lịch với các hoạt động thể thao. Tham gia giải chạy, đạp xe, golf, lướt ván, hoặc chỉ đơn giản là duy trì lối sống năng động ngay cả trong kỳ nghỉ."
+    },
+    {
+        "Id": "CATE009",
+        "Name": "Du lịch miền núi",
+        "Description": "Chinh phục đỉnh cao, khám phá bản làng vùng cao. Tận hưởng không khí trong lành, cảnh quan hùng vĩ của núi rừng, tìm hiểu văn hóa các dân tộc thiểu số đặc sắc."
+    },
+    {
+        "Id": "CATE010",
+        "Name": "Du lịch thành phố",
+        "Description": "Khám phá nhịp sống sôi động của các đô thị lớn. Tham quan kiến trúc hiện đại và cổ kính, mua sắm tại các trung tâm thương mại, thưởng thức ẩm thực đường phố."
+    },
+    {
+        "Id": "CATE011",
+        "Name": "Du lịch gia đình",
+        "Description": "Thiết kế đặc biệt cho các gia đình có trẻ nhỏ hoặc đa thế hệ. Bao gồm các hoạt động vui chơi giải trí phù hợp mọi lứa tuổi, tạo kỷ niệm đáng nhớ."
+    },
+    {
+        "Id": "CATE012",
+        "Name": "Du lịch cặp đôi",
+        "Description": "Dành riêng cho các cặp đôi. Trải nghiệm lãng mạn, không gian riêng tư, các bữa tối dưới ánh nến, hoạt động thư giãn và tận hưởng thời gian chất lượng bên nhau."
+    },
+    {
+        "Id": "CATE013",
+        "Name": "Du lịch bụi",
+        "Description": "Tự do khám phá theo cách riêng. Lên kế hoạch linh hoạt, di chuyển tiết kiệm, hòa nhập với người dân địa phương, trải nghiệm chân thực và đầy ngẫu hứng."
+    },
+    {
+        "Id": "CATE014",
+        "Name": "Du lịch sang trọng",
+        "Description": "Tận hưởng dịch vụ đẳng cấp và tiện nghi hoàn hảo. Nghỉ tại khách sạn 5 sao, di chuyển bằng phương tiện cao cấp, trải nghiệm ẩm thực tinh tế và các hoạt động độc quyền."
+    },
+    {
+        "Id": "CATE015",
+        "Name": "Du lịch nông nghiệp",
+        "Description": "Trải nghiệm cuộc sống làng quê. Tham gia các hoạt động canh tác, thu hoạch nông sản, tìm hiểu quy trình sản xuất, thưởng thức sản phẩm tươi ngon ngay tại vườn."
+    },
+    {
+        "Id": "CATE016",
+        "Name": "Du lịch lịch sử",
+        "Description": "Quay ngược thời gian khám phá các di tích lịch sử, chiến trường xưa, bảo tàng. Tìm hiểu về quá khứ hào hùng và những câu chuyện làm nên bản sắc dân tộc."
+    },
+    {
+        "Id": "CATE017",
+        "Name": "Du lịch sông nước",
+        "Description": "Du ngoạn trên sông, kênh rạch, khám phá cuộc sống miền Tây sông nước (hoặc các vùng sông nước khác). Tham quan chợ nổi, vườn cây ăn trái, làng nghề truyền thống."
+    },
+    {
+        "Id": "CATE018",
+        "Name": "Du lịch hang động",
+        "Description": "Khám phá vẻ đẹp kỳ vĩ và bí ẩn của các hệ thống hang động. Trải nghiệm đi bộ, leo trèo, bơi lội trong lòng hang, chiêm ngưỡng thạch nhũ hàng triệu năm tuổi."
+    },
+    {
+        "Id": "CATE019",
+        "Name": "Du lịch nhiếp ảnh",
+        "Description": "Dành cho những người đam mê ghi lại khoảnh khắc. Khám phá các địa điểm có cảnh quan đẹp, văn hóa độc đáo, và con người thú vị để sáng tạo nên những bức ảnh ấn tượng."
+    },
+    {
+        "Id": "CATE020",
+        "Name": "Du lịch sức khỏe",
+        "Description": "Kết hợp nghỉ dưỡng với chăm sóc sức khỏe và sắc đẹp. Tham gia yoga, thiền, tắm bùn, suối khoáng nóng, trị liệu spa để thư giãn, tái tạo năng lượng và cải thiện sức khỏe."
+    }
+]
